@@ -7,7 +7,7 @@ categories: jekyll update
 
 DISCLAIMER: THIS TUTORIAL IS FOR EDUCATIONAL PURPOSES ONLY. DO NOT USE THESE TECHNIQUES IN ANY MALICIOUS WAY.
 
-So to get started you must have a security version of linux such as [parrot][parrot os link] os or kali linux and then install "aircrack-ng".
+So to get started you must have a security version of linux such as [parrot][parrot os link] os or [kali][kali linux link] and then install [aircrack-ng].
 
 Once you have this installed then you need a wireless card that can go into monitor mode. It is recommended that you should have an external wireless card that can handle multiple bands of wireless connections like 2.4GHZ or 5GHZ.
 
@@ -21,5 +21,14 @@ sudo su
 
 Enter your password and continue.
 
+Now it's time to enable monitor mode on your wireless card but first we have to find out what the name of your wireless card is
+
+{% highlight ruby %}
+ifconfig
+{% endhighlight %}
+
+
 
 [parrot os link]: https://www.parrotsec.org
+[kali linux link]: https://www.kali.org
+[aircrack-ng]: https://www.aircrack-ng.org
