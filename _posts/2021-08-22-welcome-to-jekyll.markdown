@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to hack a wifi network"
-date:   2021-08-22  +0530
+date:   2021-08-22 +0530
 categories: jekyll update
 ---
 
@@ -27,6 +27,8 @@ Now it's time to enable monitor mode on your wireless card but first we have to 
 ifconfig
 {% endhighlight %}
 
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 [parrot os link]: https://www.parrotsec.org
