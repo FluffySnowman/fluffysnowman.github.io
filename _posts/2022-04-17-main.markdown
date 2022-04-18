@@ -154,6 +154,32 @@ Add a DNS server of your choice into the fields given. I prefer using cloudflare
 
 [Back to Index](#index)
 
+<p align="center">----------</p>
+
+Now to change your DNS server on linux. First you will have to find the resolv.conf file. It is usually located at `/etc/resolv.conf`.
+To edit this file, use a text editor of your preference. I would use `nano`.
+
+`sudo nano /etc/resolv.conf`
+
+Remove everything thats in the file and add the following while changing x and y values with the DNS server of your choice.
+
+```bash
+nameserver x.x.x.x
+nameserver y.y.y.y.
+```
+
+then do `control+o` to write to the file and `control+x` to exit.
+
+<p align="center"><img src="/assets/pics/change_dns_0x2.png" alt="change_dns_0x2.png"></p>
+
+Then you will have to restart your computer. Open a terminal and type in:
+
+`reboot`
+
+And there you go! Your DNS server has been changed.
+
+[Back to Index](#index)
+
 <hr>
 
 # Operating System Security
