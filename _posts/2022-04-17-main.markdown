@@ -14,6 +14,9 @@ Welcome to the whole documentation of everything I know about computers and syst
     2. [Netmasks](#netmasks)
     3. [DHCP](#dhcp)
     4. [DNS](#dns)
+    5. [Change Your IP](#change-your-ip)
+    6. [Change your MAC Address](#change-your-mac-address)
+    7. [Change your DNS](#change-your-dns)
 
 [2: Security in Operating systems](#operating-system-security)
 
@@ -86,6 +89,8 @@ Re-open the command prompt (cmd) window and type in the same command (`ipconfig`
 [Back to Index](#index)
 
 #### Change your DNS
+
+<hr>
 
 # Operating System Security
 
