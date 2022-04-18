@@ -10,6 +10,7 @@ Welcome to the whole documentation of everything I know about computers and syst
 # Index:
 
 [1: Networking](#networking)
+<br>
     1. [Basics of Networking](#networking-basics)
     2. [Netmasks](#netmasks)
     3. [DHCP](#dhcp)
@@ -17,7 +18,7 @@ Welcome to the whole documentation of everything I know about computers and syst
     5. [Change Your IP](#change-your-ip)
     6. [Change your MAC Address](#change-your-mac-address)
     7. [Change your DNS](#change-your-dns)
-
+<br>
 [2: Security in Operating systems](#operating-system-security)
 
 <hr>
@@ -30,23 +31,23 @@ A network consists of many things. First thing is an IP (Internet Protocol) Addr
 
 The Default configuration for routers' gateways are `192.168.1.1`. A gateway is the network node through all traffic travels through to the WWW (World Wide Network) or another IP/MAC on your network. You can change the settings in the network to send data from IP to IP instead of routing it through the gateway too but that is a bit complicated and we will leave it for later.
 
-##### Netmasks
+#### Netmasks
 
 Each router has a certain amount of devices(IPs) that can connect to it. This is determined by the 1/24 or 0/24 added at the end of the gateway IP also known as netmask. IP calculators are the easier way of determining how many devices are allowed.
 For Example: A network with netmask of `/24` will allow up to 254 devices at a time however a network with netmask of `/23` will allow 510 devices at a time.
 
-##### DHCP
+#### DHCP
 
 IP addresses can be changed very easily. There are certain protocols used for machines to automatically determine their IP addresses. One of these is known as DHCP (Dynamic Host Configuration Protocol). This protocol basically queries the IPs on the router and automatically chooses an IP (which has not been taken by any other machine (free ip)) for the machine when it connects to the network and assigns it to the machine.
 However, this protocol can be very problematic. Sometimes there is a problem where the router is queried by two different machines and the same IP is given to two different machines. This is called an "IP Conflict" and can be resolved by changing the IP address of the machine (setting the IP in settings to manual and changing it).
 
-##### DNS
+#### DNS
 
 Then we have the DNS, also known as Domain - Name - System. The DNS is basically a mediatory node which sends traffic from the router to the rest of the internet. It is used to name and identify services, computers and other resources on the internet. Changing your DNS can reduce load times on your website. Learn how to change your DNS [here](#change-your-dns).
 
 [Back to Index](#index)
 
-#### Change your ip
+### Change your ip
 
 To change your (LOCAL) IP address on windows;
 Start>Control Panel>Network and sharing centre>(left panel)>Change Adapter Settings.
@@ -84,11 +85,11 @@ Re-open the command prompt (cmd) window and type in the same command (`ipconfig`
 
 [Back to Index](#index)
 
-#### Change your mac address
+### Change your mac address
 
 [Back to Index](#index)
 
-#### Change your DNS
+### Change your DNS
 
 <hr>
 
