@@ -47,15 +47,15 @@ Click on the blue/selected field shown in the image and click properties.
 
 After you reach the properties page, Select the "Use the following IP address" option and enter the IP address you want to use.
 
-![change_ip_0x2](/_posts/pics/change_ip_0x2.png)
+<img src="/assets/images/change_ip_0x2.png" alt="change_ip_0x2">
 
 Fill in the field according to your network configuration. To find out your network configuration, hit "control+r" to open the run window and type in `cmd` and hit enter.
 
-![change_ip_0x3](/_posts/pics/change_ip_0x3.png)
+<img src="/assets/images/change_ip_0x13png" alt="change_ip_0x3">
 
 Once you are in the terminal window, simply type in `ipconfig` and look for something that looks like this:
 
-![change_ip_0x4](/_posts/pics/change_ip_0x4.png)
+<img src="/assets/images/change_ip_0x4.png" alt="change_ip_0x4">
 
 Fill in the respective fields in the respective boxes in your "Internet Protocol Version 4" window.
 Once you have closed and saved the control panel windows, the IP should have changed.
