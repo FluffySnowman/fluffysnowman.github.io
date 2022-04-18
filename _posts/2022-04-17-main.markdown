@@ -148,7 +148,7 @@ To do this on Windows, Follow the steps to your adapter settings in control pane
 
 Once you have reached this page, add a DNS server manually.
 
-<p align="center"><img src="/assets/pics/change_ip_0x6.png" alt="change_dns_0x1"></p>
+<p align="center"><img src="/assets/pics/change_ip_0x6.png" alt="change_dns_0x1.png"></p>
 
 Add a DNS server of your choice into the fields given. I prefer using cloudflare's DNS server as the first option and google's DNS server as the backup in case that fails. You can also add your own DNS server if you wish.
 
