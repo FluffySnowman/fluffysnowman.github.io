@@ -9,17 +9,15 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 # Index:
 
-[1: Networking](#networking)
-<br>
-    1. [Basics of Networking](#networking-basics)
-    2. [Netmasks](#netmasks)
-    3. [DHCP](#dhcp)
-    4. [DNS](#dns)
-    5. [Change Your IP](#change-your-ip)
-    6. [Change your MAC Address](#change-your-mac-address)
-    7. [Change your DNS](#change-your-dns)
-<br>
-[2: Security in Operating systems](#operating-system-security)
+1. [Networking](#networking)
+    - [Basics of Networking](#networking-basics)
+    - [Netmasks](#netmasks)
+    - [DHCP](#dhcp)
+    - [DNS](#dns)
+    - [Change Your IP](#change-your-ip)
+    - [Change your MAC Address](#change-your-mac-address)
+    - [Change your DNS](#change-your-dns)
+2. [Security in Operating systems](#operating-system-security)
 
 <hr>
 
