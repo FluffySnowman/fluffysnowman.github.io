@@ -13,7 +13,7 @@ Welcome to the whole documentation of everything I know (computer related).
 
 [2: Security in Operating systems](#operating-system-security)
 
-<br>
+<hr>
 
 # Networking
 
