@@ -35,6 +35,32 @@ Then we have the DNS, also known as Domain - Name - System. The DNS is basically
 
 #### Change your ip
 
+To change your (LOCAL) IP address on windows;
+Start>Control Panel>Network and sharing centre>(left panel)>Change Adapter Settings.
+Once you have clicked the endpoint, simple select the adapter you want to change and right click>properties.
+
+You will be greeted with this window:
+
+Click on the blue/selected field shown in the image and click properties.
+
+![change_ip_0x1](pics/change_ip_0x1.png)
+
+After you reach the properties page, Select the "Use the following IP address" option and enter the IP address you want to use.
+
+![change_ip_0x2](pics/change_ip_0x2.png)
+
+Fill in the field according to your network configuration. To find out your network configuration, hit "control+r" to open the run window and type in `cmd` and hit enter.
+
+![change_ip_0x3](pics/change_ip_0x3.png)
+
+Once you are in the terminal window, simply type in `ipconfig` and look for something that looks like this:
+
+![change_ip_0x4](pics/change_ip_0x4.png)
+
+Fill in the respective fields in the respective boxes in your "Internet Protocol Version 4" window.
+Once you have closed and saved the control panel windows, the IP should have changed.
+Re-open the command prompt (cmd) window and type in the same command (`ipconfig`) to see your new IP and voila!
+
 [Back to Index](#index)
 
 #### Change your mac address
