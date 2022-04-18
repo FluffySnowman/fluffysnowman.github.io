@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to hack a wifi network"
+title:  "The Guide of Everything"
 date:   2021-08-22 +0530
 categories: jekyll update
 ---
