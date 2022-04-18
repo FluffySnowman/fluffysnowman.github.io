@@ -23,10 +23,22 @@ A network consists of many things. First thing is an IP (Internet Protocol) Addr
 
 The Default configuration for routers' gateways are `192.168.1.1`. A gateway is the network node through all traffic travels through to the WWW (World Wide Network) or another IP/MAC on your network. You can change the settings in the network to send data from IP to IP instead of routing it through the gateway too but that is a bit complicated and we will leave it for later.
 
+
+
+
+
+
+[Back to Index](#index)
+
 ### Change your ip
+
+[Back to Index](#index)
 
 ### Change your mac address
 
+[Back to Index](#index)
+
 # Operating System Security
 
+[Back to Index](#index)
 
