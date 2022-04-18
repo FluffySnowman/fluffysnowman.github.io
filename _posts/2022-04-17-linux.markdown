@@ -17,6 +17,8 @@ Welcome to the whole documentation of everything I know (computer related).
 
 # Networking
 
+Networking is a simple yet complex part of the computing experience. It is essentially the connection between computers (phones and tablets included) and servers. The communication between these computers and servers is done through a network. Transmission of data (in packets) is done through a network.
+
 # Operating System Security
 
 
