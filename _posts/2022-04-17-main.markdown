@@ -87,6 +87,8 @@ Fill in the respective fields in the respective boxes in your "Internet Protocol
 Once you have closed and saved the control panel windows, the IP should have changed.
 Re-open the command prompt (cmd) window and type in the same command (`ipconfig`) to see your new IP and voila!
 
+[Back to Index](#index)
+
 <p align="center">----------</p>
 
 Now to change your IP configuration on linux. There are many ways to do this but in my opinion, the most efficient way to do this is through the CLI (Command Line Interface).
