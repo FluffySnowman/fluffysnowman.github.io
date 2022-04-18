@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "How to hack a wifi network"
+title:  "The Guide to Everything"
 date:   2022-04-17 +0530
 categories: jekyll update
 ---
 
-a
+Welcome to the whole documentation of everything I know (computer related).
+
+Index:
+1:
