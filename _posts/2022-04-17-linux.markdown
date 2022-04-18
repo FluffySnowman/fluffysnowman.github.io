@@ -8,7 +8,9 @@ categories: jekyll update
 Welcome to the whole documentation of everything I know (computer related).
 
 # Index:
-[1: Networking](#Networking)
+
+[1: Networking](#networking)
+
 [2: Security in Operating systems](#operating-system-security)
 
 <br>
