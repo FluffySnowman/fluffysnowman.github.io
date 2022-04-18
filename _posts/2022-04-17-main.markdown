@@ -43,7 +43,7 @@ You will be greeted with this window:
 
 Click on the blue/selected field shown in the image and click properties.
 
-![change_ip_0x1](/_posts/pics/change_ip_0x1.png)
+<img src="/assets/images/change_ip_0x1.png" alt="change_ip_0x1">
 
 After you reach the properties page, Select the "Use the following IP address" option and enter the IP address you want to use.
 
