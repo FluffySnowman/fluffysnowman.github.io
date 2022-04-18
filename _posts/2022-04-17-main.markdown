@@ -51,7 +51,7 @@ After you reach the properties page, Select the "Use the following IP address" o
 
 Fill in the field according to your network configuration. To find out your network configuration, hit "control+r" to open the run window and type in `cmd` and hit enter.
 
-<img src="/assets/images/change_ip_0x13png" alt="change_ip_0x3">
+<img src="/assets/images/change_ip_0x3.png" alt="change_ip_0x3">
 
 Once you are in the terminal window, simply type in `ipconfig` and look for something that looks like this:
 
