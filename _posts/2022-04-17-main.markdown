@@ -87,6 +87,50 @@ Fill in the respective fields in the respective boxes in your "Internet Protocol
 Once you have closed and saved the control panel windows, the IP should have changed.
 Re-open the command prompt (cmd) window and type in the same command (`ipconfig`) to see your new IP and voila!
 
+<p align="center">----------</p>
+
+Now to change your IP configuration on linux. There are many ways to do this but in my opinion, the most efficient way to do this is through the CLI (Command Line Interface).
+
+First what you gotta do is check your current IP configuration and network interface name. TO do this type in `ifconfig` or `ip addr`.
+
+This will open up some text which you may not understand but all you have to look for is something that says `inet` and `netmask`.
+
+<p align="center">
+<img src="/assets/pics/change_ip_0x5.png" alt="change_ip_0x5">
+</p>
+
+<b>Note: Do not share what is in the `inet6` field or anything in the places that I've coloured out. Sharing this information can be potentially dangerous.</b>
+
+Once you have these details, all you have to do to change your IP is type in this command while replacing <interface_name> with the name of your network interface (the text on the complete left of the output), <ip_address> with the IP address you want to use and <netmask> with the netmask you want to use. You will also have to enter your superuser's password.
+
+
+```bash
+sudo ifconfig <interface_name> <ip_address> netmask <netmask_address>
+```
+
+There is also another way to change your IP (LOCAL). To do this, you have to find your network configuration file.
+On Debian, Ubuntu and other Linux distributions, this is usually located at `/etc/network/interfaces`.
+To edit this file, use a text editor of your preference. I would use `nano`.
+
+```bash
+sudo nano /etc/network/interfaces
+```
+and enter in these details:
+
+```bash
+iface <interface_name> inet static
+address <ip_address>
+netmask <network_mask>
+gateway <gateway_ip>
+```
+
+<p align="center"><img src="/assets/pics/change_ip_0x6.png" alt="change_ip_0x6"></p>
+
+Replace the values here as you did in the command abovel;then `control+o` to write to the file and `control+x` to exit.
+
+After all of this is done, you will have to restart your networking service. To do this on linux, type in `sudo service networking restart`.
+This command usually works for all distributions but may vary for other distributions so if you're not sure feel free to look it up online.
+
 [Back to Index](#index)
 
 ### Change your mac address
