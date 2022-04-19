@@ -19,6 +19,7 @@ Welcome to the whole documentation of everything I know about computers and syst
     - [Change Your IP](#change-your-ip)
     - [Change your MAC Address](#change-your-mac-address)
     - [Change your DNS](#change-your-dns)
+    - [ARP Scanning](#arp)
 2. [Security in Operating systems](#operating-system-security)
 
 <hr>
@@ -177,6 +178,32 @@ Then you will have to restart your computer. Open a terminal and type in:
 `reboot`
 
 And there you go! Your DNS server has been changed.
+
+[Back to Index](#index)
+
+### ARP
+
+The Address Resolution Protocol, also known as ARP, is a protocol that connects an IP to a MAC address in a LAN (Local Area Network).
+ARP is usually used to see all the devices on a network. This is very helpful as the MAC address can be used to identify which device is which and what IP it has. This can also be used to resolve IP conflicts and counting the amount of devices on your network.
+Now let's get into using ARP to scan.
+
+On Windows and Linux, arp is a built in command so fire up a terminal and do this:
+
+```bash
+arp -a
+```
+
+This will list all the devices on your network via IPs and MAC IDs. 
+A way to count all the devices on a network if it is a large network is to use the verbose output of the ARP command `-v`.
+
+```bash
+arp -v
+```
+
+This will show the total amount of devices (as entries) in the list that is printed to the console. 
+Example:
+
+![arp_0x1](/assets/pics/arp_0x1.png)
 
 [Back to Index](#index)
 

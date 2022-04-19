@@ -5,15 +5,16 @@ date: 2022-04-19 +0530
 categories: jekyll update
 ---
 
+<!--
 extra_javascript:
     /scripts/copy_code.js
-
+-->
 <hr>
 <br>
 DISCLAIMER: ALL OF THESE TUTORIALS AND TIPS ARE ONLY FOR EDUCATION PURPOSES. I HOLD NO RESPONSIBILITY FOR ANYONE'S ACTIONS.
 
 <hr>
-
+<br>
 So... Let's start hacking.
 
 First we'll start with basic network hacking and mapping. Common tools used for this are:
