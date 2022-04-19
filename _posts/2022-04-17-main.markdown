@@ -133,7 +133,10 @@ This will open up some text which you may not understand but all you have to loo
 
 Once you have these details, all you have to do to change your IP is type in this command while replacing (interface_name) with the name of your network interface (the text on the complete left of the output), (ip_address) with the IP address you want to use and (netmask) with the netmask you want to use. You will also have to enter your superuser's password.
 
-<pre><code class="bash testing0x1">sudo ifconfig (interface_name) (ip_address) netmask (netmask_address)</code></pre>
+<!--<pre><code class="bash testing0x1">-->
+```bash
+sudo ifconfig (interface_name) (ip_address) netmask (netmask_address)
+```
 
 
 There is also another way to change your IP (LOCAL). To do this, you have to find your network configuration file.
