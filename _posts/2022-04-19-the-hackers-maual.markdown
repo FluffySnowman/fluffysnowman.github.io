@@ -54,9 +54,24 @@ sudo apt-get update
 sudo apt-get install aircrack-ng wireshark nmap airgeddon etherape ping host mtr tcpdump traceroute 
 ```
 
-If you wish to use all these tools at once in an efficient and simply interface please check out [this github repository](https://github.com/FluffySnowman/fastmap).
+If you wish to use all these tools at once in an efficient and simple interface please check out [this github repository](https://github.com/FluffySnowman/fastmap).
 
-Once you have these installed, 
+Once you have these installed, fire up a root temrinal or use `su` / `sudo su` to acquire admin privelages. Now we can start mapping. An [ARP Scan](_posts\2022-04-17-main.markdown#arp) is the best way to start mapping a network.
+One of the easiest ways to do this is to use the `nmap` command.
+First we need to see who all are connected to the network.
+
+```bash
+nmap -sn <gateway>/<netmask>
+
+Example-
+nmap -sn 192.168.1.1/24
+```
+Give nmap a second to scan the network and then we can see who is connected to the network. It should look a bit like this:
+
+<p align="center">
+<img src="/assets/pics/manual_nmap_sn_0x1.png" alt="change_ip_0x1">
+</p>
+
 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
