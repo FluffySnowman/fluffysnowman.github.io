@@ -1,0 +1,9 @@
+div.content pre {
+    background: #d42525;
+    padding: 10px;
+    color: rgb(20, 199, 29);
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    border: none;
+}
