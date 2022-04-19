@@ -5,6 +5,27 @@ date:   2022-04-17 +0530
 categories: jekyll update
 ---
 
+```{css, echo=FALSE}
+pre code {
+    background: #4e4848;
+    padding: 20px;
+    color: rgb(163, 35, 30);
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    border: none;
+}
+.testing0x1 {
+    background: #4e4848;
+    padding: 20px;
+    color: rgb(163, 35, 30);
+    overflow-x: auto;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+    border: none;
+}
+```
+
 Welcome to the whole documentation of everything I know about computers and systems.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -108,7 +129,7 @@ This will open up some text which you may not understand but all you have to loo
 
 Once you have these details, all you have to do to change your IP is type in this command while replacing (interface_name) with the name of your network interface (the text on the complete left of the output), (ip_address) with the IP address you want to use and (netmask) with the netmask you want to use. You will also have to enter your superuser's password.
 
-<pre><code class="bash">sudo ifconfig (interface_name) (ip_address) netmask (netmask_address)</code></pre>
+<pre><code class="bash testing0x1">sudo ifconfig (interface_name) (ip_address) netmask (netmask_address)</code></pre>
 
 
 There is also another way to change your IP (LOCAL). To do this, you have to find your network configuration file.
