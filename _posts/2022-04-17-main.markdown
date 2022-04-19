@@ -37,6 +37,8 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 # Index:
 
+Go to the [comments](#comments-section)
+
 1. [Networking](#networking-basics)
     - [Basics of Networking](#networking-basics)
     - [Netmasks](#netmasks)
@@ -243,6 +245,8 @@ Example:
 
 [Back to Index](#index)
 
+# COMMENTS SECTION
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
@@ -265,3 +269,5 @@ Example:
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+[Back to Index](#index)
