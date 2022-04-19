@@ -18,19 +18,26 @@ DISCLAIMER: ALL OF THESE TUTORIALS AND TIPS ARE ONLY FOR EDUCATION PURPOSES. I H
 <br>
 So... Let's start hacking.
 
+Go to the [comments](#comments-section)
+
+# INDEX:
+
+1. [Network Auditing](#network-auditing)
+    - [Installations](#installations-for-networking)
+
+# Network Auditing
+
 First we'll start with basic network hacking and mapping. Common tools used for this are:
 
-<div style="background-color: rgb(50, 50, 50);">
+### Installations for Networking
 
 ```bash
-aircrack-ng wireshark nmap airgeddon
+aircrack-ng wireshark nmap airgeddon etherape ping host mtr tcpdump traceroute 
 ```
 
-</div>
-
-These are some of the tools that beginners use to crack, map and track wireless and wired networks.
+These ^ are some of the tools that beginners use to crack, map and track wireless and wired networks.
 For these examples we will be using a debian distribution of linux such as Ubuntu, Parrot or Kali.
-If you guys want tutorials for other distributions please contact me on <a href="mailto:thefluffysnowmanyt@gmail.com">thefluffysnowmanyt@gmail.com</a>
+If you guys want tutorials for other distributions please contact me on <a href="mailto:thefluffysnowmanyt@gmail.com">thefluffysnowmanyt@gmail.com</a> or [leave a comment](#comments-section).
 
 So you gotta load up these tools on your computer now. You can use the advanced package tool `apt` to install these tools. 
 
@@ -41,13 +48,19 @@ So you gotta load up these tools on your computer now. You can use the advanced 
 </div>
 -->
 
-<div style="background-color: rgb(50, 50, 50);">
-
 ```bash
-sudo apt-get install aircrack-ng wireshark nmap airgeddon
+sudo apt-get update
+
+sudo apt-get install aircrack-ng wireshark nmap airgeddon etherape ping host mtr tcpdump traceroute 
 ```
 
-</div>
+If you wish to use all these tools at once in an efficient and simply interface please check out [this github repository](https://github.com/FluffySnowman/fastmap).
+
+Once you have these installed, 
+
+[Back to Index](#index)<br>[leave a comment](#comments-section)
+
+# COMMENTS SECTION
 
 {% if page.comments %}
 
