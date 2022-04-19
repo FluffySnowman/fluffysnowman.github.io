@@ -106,14 +106,13 @@ This will open up some text which you may not understand but all you have to loo
 
 <b>Note: Do not share what is in the `inet6` field or anything in the places that I've coloured out. Sharing this information can be potentially dangerous.</b>
 
-Once you have these details, all you have to do to change your IP is type in this command while replacing <interface_name> with the name of your network interface (the text on the complete left of the output), <ip_address> with the IP address you want to use and <netmask> with the netmask you want to use. You will also have to enter your superuser's password.
+Once you have these details, all you have to do to change your IP is type in this command while replacing (interface_name) with the name of your network interface (the text on the complete left of the output), (ip_address) with the IP address you want to use and (netmask) with the netmask you want to use. You will also have to enter your superuser's password.
 
 <div style="background-color: rgb(50, 50, 50);">
 
 ```bash
-sudo ifconfig <interface_name> <ip_address> netmask <netmask_address>
+sudo ifconfig (interface_name) (ip_address) netmask (netmask_address)
 ```
-
 </div>
 
 There is also another way to change your IP (LOCAL). To do this, you have to find your network configuration file.
@@ -174,8 +173,9 @@ To edit this file, use a text editor of your preference. I would use `nano`.
 
 <div style="background-color: rgb(50, 50, 50);">
 
-
-`sudo nano /etc/resolv.conf`
+```bash
+sudo nano /etc/resolv.conf`
+```
 
 </div>
 
