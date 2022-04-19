@@ -2,6 +2,7 @@
 layout: post
 title:  "The Guide to Everything"
 date:   2022-04-17 +0530
+comment-id: 4
 categories: jekyll update
 ---
 
@@ -242,3 +243,6 @@ Example:
 
 [Back to Index](#index)
 
+{% if page.comments_id %}
+	{% include comments.html %}
+{% endif %}
