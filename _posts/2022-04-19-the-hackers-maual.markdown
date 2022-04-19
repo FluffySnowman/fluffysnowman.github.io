@@ -58,7 +58,7 @@ If you wish to use all these tools at once in an efficient and simply interface 
 
 Once you have these installed, 
 
-[Back to Index](#index)<br>[leave a comment](#comments-section)
+[Back to Index](#index)<br><br>[Comment](#comments-section)
 
 # COMMENTS SECTION
 
@@ -84,3 +84,7 @@ Once you have these installed,
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+
+[Back to Index](#index)
+
+
