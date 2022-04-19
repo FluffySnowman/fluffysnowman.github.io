@@ -2,6 +2,7 @@
 layout: post
 title: "The Hacker's Manual"
 date: 2022-04-19 +0530
+comments: true
 categories: jekyll update
 ---
 
