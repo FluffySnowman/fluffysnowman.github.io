@@ -51,5 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-talkyard_server_url: https://fluffysnowman.talkyard.net

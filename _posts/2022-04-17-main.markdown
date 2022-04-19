@@ -242,7 +242,3 @@ Example:
 # Operating System Security
 
 [Back to Index](#index)
-
-{% if page.comments_id %}
-	{% include comments.html %}
-{% endif %}
