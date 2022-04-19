@@ -19,9 +19,13 @@ So... Let's start hacking.
 
 First we'll start with basic network hacking and mapping. Common tools used for this are:
 
+<div style="background-color: rgb(50, 50, 50);">
+
 ```bash
 aircrack-ng wireshark nmap airgeddon
 ```
+
+</div>
 
 These are some of the tools that beginners use to crack, map and track wireless and wired networks.
 For these examples we will be using a debian distribution of linux such as Ubuntu, Parrot or Kali.
@@ -36,6 +40,11 @@ So you gotta load up these tools on your computer now. You can use the advanced 
 </div>
 -->
 
+<div style="background-color: rgb(50, 50, 50);">
+
 ```bash
 sudo apt-get install aircrack-ng wireshark nmap airgeddon
 ```
+
+</div>
+

@@ -108,19 +108,29 @@ This will open up some text which you may not understand but all you have to loo
 
 Once you have these details, all you have to do to change your IP is type in this command while replacing <interface_name> with the name of your network interface (the text on the complete left of the output), <ip_address> with the IP address you want to use and <netmask> with the netmask you want to use. You will also have to enter your superuser's password.
 
+<div style="background-color: rgb(50, 50, 50);">
 
 ```bash
 sudo ifconfig <interface_name> <ip_address> netmask <netmask_address>
 ```
 
+</div>
+
 There is also another way to change your IP (LOCAL). To do this, you have to find your network configuration file.
 On Debian, Ubuntu and other Linux distributions, this is usually located at `/etc/network/interfaces`.
 To edit this file, use a text editor of your preference. I would use `nano`.
 
+<div style="background-color: rgb(50, 50, 50);">
+
 ```bash
 sudo nano /etc/network/interfaces
 ```
+
+</div>
+
 and enter in these details:
+
+<div style="background-color: rgb(50, 50, 50);">
 
 ```bash
 iface <interface_name> inet static
@@ -128,6 +138,8 @@ address <ip_address>
 netmask <network_mask>
 gateway <gateway_ip>
 ```
+
+</div>
 
 <p align="center"><img src="/assets/pics/change_ip_0x6.png" alt="change_ip_0x6"></p>
 
@@ -160,14 +172,23 @@ Add a DNS server of your choice into the fields given. I prefer using cloudflare
 Now to change your DNS server on linux. First you will have to find the resolv.conf file. It is usually located at `/etc/resolv.conf`.
 To edit this file, use a text editor of your preference. I would use `nano`.
 
+<div style="background-color: rgb(50, 50, 50);">
+
+
 `sudo nano /etc/resolv.conf`
 
+</div>
+
 Remove everything thats in the file and add the following while changing x and y values with the DNS server of your choice.
+
+<div style="background-color: rgb(50, 50, 50);">
 
 ```bash
 nameserver x.x.x.x
 nameserver y.y.y.y.
 ```
+
+</div>
 
 then do `control+o` to write to the file and `control+x` to exit.
 
@@ -189,16 +210,23 @@ Now let's get into using ARP to scan.
 
 On Windows and Linux, arp is a built in command so fire up a terminal and do this:
 
+<div style="background-color: rgb(50, 50, 50);">
+
 ```bash
 arp -a
 ```
 
+</div>
+
 This will list all the devices on your network via IPs and MAC IDs. 
 A way to count all the devices on a network if it is a large network is to use the verbose output of the ARP command `-v`.
+
+<div style="background-color: rgb(50, 50, 50);">
 
 ```bash
 arp -v
 ```
+</div>
 
 This will show the total amount of devices (as entries) in the list that is printed to the console. 
 Example:
