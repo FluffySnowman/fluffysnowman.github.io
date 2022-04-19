@@ -5,6 +5,8 @@ date:   2022-04-17 +0530
 categories: jekyll update
 ---
 
+<!--
+
 ```{css, echo=FALSE}
 pre code {
     background: #4e4848;
@@ -25,6 +27,8 @@ pre code {
     border: none;
 }
 ```
+
+-->
 
 Welcome to the whole documentation of everything I know about computers and systems.
 
