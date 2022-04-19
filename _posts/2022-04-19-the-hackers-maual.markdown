@@ -29,7 +29,7 @@ If you guys want tutorials for other distributions please contact me on <a href=
 So you gotta load up these tools on your computer now. You can use the advanced package tool `apt` to install these tools. 
 
 
-<!-->
+<!--
 {% include codeHeader.html %}
 <div id="copy1">
 </div>
