@@ -69,7 +69,7 @@ nmap -sn 192.168.1.1/24
 Give nmap a second to scan the network and then we can see who is connected to the network. It should look a bit like this:
 
 <p align="center">
-<img src="/_posts/pics/manual_nmap_sn_0x1.png" alt="manual_nmap_sn_0x1.png">
+<img src="./_posts/pics/manual_nmap_sn_0x1.png" alt="manual_nmap_sn_0x1.png">
 </p>
 
 
