@@ -5,6 +5,9 @@ date: 2022-04-19 +0530
 categories: jekyll update
 ---
 
+extra_javascript:
+    /scripts/copy_code.js
+
 <hr>
 <br>
 DISCLAIMER: ALL OF THESE TUTORIALS AND TIPS ARE ONLY FOR EDUCATION PURPOSES. I HOLD NO RESPONSIBILITY FOR ANYONE'S ACTIONS.
@@ -26,6 +29,8 @@ If you guys want tutorials for other distributions please contact me on <a href=
 So you gotta load up these tools on your computer now. You can use the advanced package tool `apt` to install these tools. 
 
 {% include codeHeader.html %}
+<div id="copy1">
 ```bash
 sudo apt-get install aircrack-ng wireshark nmap airgeddon
 ```
+</div>
