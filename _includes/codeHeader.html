@@ -12,10 +12,12 @@
   </div>
   
 <script type="text/javascript">
-    var copy_text = document.getElementById("copyt");
-    copy_text.select();
+    function copy() {}
+        var copy_text = document.getElementById("copyt");
+        copy_text.select();
 
-    navigator.clipboard.write(copy_text.value);
+        navigator.clipboard.write(copy_text.value);
 
-    alert(copy_text + "copied");
+        alert(copy_text + "copied");
+    }
 </script>
