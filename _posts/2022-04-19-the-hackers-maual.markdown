@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Hacker's Manual"
-date: 2021-08-22 +0530
+date: 2022-04-19 +0530
 categories: jekyll update
 ---
 
