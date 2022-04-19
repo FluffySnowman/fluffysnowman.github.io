@@ -36,7 +36,7 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 # Index:
 
-1. [Networking](#networking)
+1. [Networking](#networking-basics)
     - [Basics of Networking](#networking-basics)
     - [Netmasks](#netmasks)
     - [DHCP](#dhcp)
