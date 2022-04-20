@@ -177,7 +177,7 @@ Now all you have to do is wait. If the wordlist has the key to the network in it
 Once it is cracked, the terminal should be similar to this:
 
 <p align="center">
-<img src="/assets/pics/aircrack-ng_0x1" alt="aircrack-ng_0x1">
+<img src="/assets/pics/aircrack-ng_0x1.PNG" alt="aircrack-ng_0x1">
 </p>
 
 (example from google)
