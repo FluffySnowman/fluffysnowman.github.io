@@ -30,6 +30,7 @@ Go to the [comments](#comments-section)
 
 1. [Network Auditing](#network-auditing)
     - [Installations](#installations-for-networking)
+    - [Aircrack-ng](#wireless-networking-with-aircrack-ng)
 
 # Network Auditing
 
@@ -62,9 +63,12 @@ sudo apt-get install aircrack-ng wireshark nmap airgeddon etherape host mtr tcpd
 
 If you wish to use all these tools at once in an efficient and simple interface please check out [this github repository](https://github.com/FluffySnowman/fastmap).
 <br><hr><br>
+
+### Wireless Networking with aircrack-ng
+
 So... Now you decide you wanna test your wireless network's security. Lets jump right into it!
 Tools which we'll be using for this are the `aircrack-ng` suite. This set of binaries can be used to put your networking device into monitor mode, scan for wireless networks around you and finally.. crack them.
-Let's start this by firing up a temrinal. You will need to be a superuser/admin to use these commands so make sure you have a root terminal open or use `su` or `sudo su` to do so.
+Let's start this by firing up a temrinal. <b>You will need to be a superuser/admin to use these commands so make sure you have a root terminal open or use `su` or `sudo su` to do so. </b>
 
 ```bash
 ifconfig
@@ -80,7 +84,38 @@ The output should look a little something like this:
 
 (Example taken from geeksforgeeks.org)
 
+<b>NOTE: YOU WILL NEED TO MAKE SURE THAT YOUR WIFI ADAPTER ALLOWS 'MONITOR MODE' TO WORK WITH THE NEXT TOOL.</b>
 
+Once you have found your wireless adapter name, you need to put it in monitor mode to look for (monitor) networks. This is done by typing the following command:
+
+```bash
+airmon-ng check kill
+airmon-ng start <interface name>
+
+Example: 
+airmon-ng check kill
+airmon-ng start wlan0
+```
+
+Airmon-ng will check if the wireless adapter is already in monitor mode and if it is it will kill it. Then it will start the adapter in monitor mode.
+
+If you receive any errors with these commands feel free to leave a comment asking for help with your error in a screenshot and I will try my best to help :)
+
+So now we have our wireless card in monitor mode. Time to scan for some networks!
+The command airodump-ng will scan for wireless networks around you. But you will have to specify a wireless network interface for it to scan with.
+
+```bash
+airodump-ng <interface name>
+
+Example: 
+airodump-ng wlan0
+```
+
+The output should look similar to this:
+
+<p align="center">
+<img src="/assets/pics/airodump-ng_0x1.PNG" alt="airodump-ng_0x1">
+</p>
 
 
 
