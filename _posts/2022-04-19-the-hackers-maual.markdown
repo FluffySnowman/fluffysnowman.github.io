@@ -192,7 +192,7 @@ So that's how you crack a wireless network. Now, moving on to what you can do on
 
 ### Network Mapping
 
-Once you have these installed, fire up a root temrinal or use `su` / `sudo su` to acquire admin privelages. Now we can start mapping. An [ARP Scan](_posts\2022-04-17-main.markdown#arp) is the best way to start mapping a network.
+Fire up a root temrinal or use `su` / `sudo su` to acquire admin privelages. Now we can start mapping. An [ARP Scan](_posts\2022-04-17-main.markdown#arp) is the best way to start mapping a network.
 One of the easiest ways to do this is to use the `nmap` command.
 First we need to see who all are connected to the network.
 
