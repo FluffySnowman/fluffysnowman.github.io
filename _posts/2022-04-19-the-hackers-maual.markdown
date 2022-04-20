@@ -152,6 +152,8 @@ If all of this is successful, you should see a line like this at the top of the 
 <img src="/assets/pics/airodump-ng_0x2.PNG" alt="airodump-ng 0x2">
 </p>
 
+(example from google)
+
 This means that you have managed to capture a handshake and now you can crack it.
 
 Now the intense part:
@@ -169,6 +171,16 @@ aircrack-ng -w <wordlist.txt> <filename>.cap
 Where filename is the name of the file where you saved the handshake to.
 
 Now all you have to do is wait. If the wordlist has the key to the network in it, it will crack once it reaches the line which the key is in. If not, you will have to try another one :)
+
+Once it is cracked, the terminal should be similar to this:
+
+<p align="center">
+<img src="/assets/pics/aircrack-ng_0x1" alt="aircrack-ng_0x1">
+</p>
+
+(example from google)
+
+The arrow is pointed towards the password. You can connect to the WiFi Network using the password as you would normally.
 
 [Back to Index](#index)
 
