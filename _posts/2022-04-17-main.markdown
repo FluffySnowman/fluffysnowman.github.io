@@ -234,7 +234,9 @@ arp -v
 This will show the total amount of devices (as entries) in the list that is printed to the console. 
 Example:
 
-![arp_0x1](/assets/pics/arp_0x1.png)
+<p align="center">
+<img src="/assets/pics/arp_0x1.png" alt="arp_0x1">
+</p>
 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
