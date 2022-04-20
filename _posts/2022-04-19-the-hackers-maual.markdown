@@ -32,6 +32,8 @@ Go to the [comments](#comments-section)
     - [Installations](#installations-for-networking)
     - [Aircrack-ng](#wireless-networking-with-aircrack-ng)
     - [WPA Handshakes](#wpa-handshake-cracking)
+    - [WEP Handshakes](#wep-handshake-cracking)
+    - [Mapping](#network-mapping)
 
 # Network Auditing
 
@@ -166,8 +168,29 @@ aircrack-ng -w <wordlist.txt> <filename>.cap
 ```
 Where filename is the name of the file where you saved the handshake to.
 
+Now all you have to do is wait. If the wordlist has the key to the network in it, it will crack once it reaches the line which the key is in. If not, you will have to try another one :)
+
+[Back to Index](#index)
+
+### WEP Handshake Cracking 
+
+WEP is fairly easy to crack or you could say- easier than WPA. You simple have to use the same command but with no wordlist.
+
+```bash
+aircrack-ng <filename>.cap
+```
+
+Then you wait and its cracked. Easy peasy. 
+
+<br>
+
+So that's how you crack a wireless network. Now, moving on to what you can do once you're inside the wireless network.
+
+[Back to Index](#index)
 
 <hr>
+
+### Network Mapping
 
 Once you have these installed, fire up a root temrinal or use `su` / `sudo su` to acquire admin privelages. Now we can start mapping. An [ARP Scan](_posts\2022-04-17-main.markdown#arp) is the best way to start mapping a network.
 One of the easiest ways to do this is to use the `nmap` command.
