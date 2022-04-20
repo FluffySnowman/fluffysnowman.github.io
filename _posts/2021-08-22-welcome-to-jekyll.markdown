@@ -7,7 +7,7 @@ categories: jekyll update
 ---
 
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
 </head>
 This is a long documentation of all te knowledge I know about computers, networks and anything of the sort.
 

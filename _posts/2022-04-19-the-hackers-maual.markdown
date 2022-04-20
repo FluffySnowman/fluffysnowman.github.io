@@ -6,6 +6,9 @@ comments: true
 categories: jekyll update
 ---
 
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
 <!--
 extra_javascript:
     /scripts/copy_code.js
