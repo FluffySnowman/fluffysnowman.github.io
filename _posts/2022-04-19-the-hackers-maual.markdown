@@ -31,6 +31,7 @@ Go to the [comments](#comments-section)
 1. [Network Auditing](#network-auditing)
     - [Installations](#installations-for-networking)
     - [Aircrack-ng](#wireless-networking-with-aircrack-ng)
+    - [WPA Handshakes](#wpa-handshake-cracking)
 
 # Network Auditing
 
@@ -63,6 +64,8 @@ sudo apt-get install aircrack-ng wireshark nmap airgeddon etherape host mtr tcpd
 
 If you wish to use all these tools at once in an efficient and simple interface please check out [this github repository](https://github.com/FluffySnowman/fastmap).
 <br><hr><br>
+
+[Back to Index](#index)
 
 ### Wireless Networking with aircrack-ng
 
@@ -141,6 +144,27 @@ aireplay-ng -0 0 -a <ACCESS POINT BSSID> -c <STATION MAC ID> <INTERFACE NAME>
 ```
 
 Now you have to wait for aireplay-ng to do its job. (If you get any problems with these commands feel free to [leave a comment](#comments-section))
+If all of this is successful, you should see a line like this at the top of the airodump-ng window:
+
+<p align="center">
+<img src="/assets/pics/airodump-ng_0x2.PNG" alt="airodump-ng 0x2">
+</p>
+
+This means that you have managed to capture a handshake and now you can crack it.
+
+Now the intense part:
+
+[Back to Index](#index)
+
+### WPA Handshake Cracking 
+
+We will have to crack this handshake file with a wordlist. A common wordlist called rockyou.txt can be found [here](https://objects.githubusercontent.com/github-production-release-asset-2e65be/97553311/d4f580f8-6b49-11e7-8f70-7f460f85ab3a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220420%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220420T141433Z&X-Amz-Expires=300&X-Amz-Signature=37f861490af9ff6f1d2e6f948bae6573d488aaa289458ef9b0bdb7722ff1349f&X-Amz-SignedHeaders=host&actor_id=51316255&key_id=0&repo_id=97553311&response-content-disposition=attachment%3B%20filename%3Drockyou.txt&response-content-type=application%2Foctet-stream). Download them, extract them and save them to a location you will remember. You can download any wordlist you want. Some are quite big and heavy and some aren't. 
+Simple type in this command now:
+
+```bash
+aircrack-ng -w <wordlist.txt> <filename>.cap
+```
+Where filename is the name of the file where you saved the handshake to.
 
 
 <hr>
