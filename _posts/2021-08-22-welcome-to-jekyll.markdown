@@ -6,6 +6,9 @@ comments: true
 categories: jekyll update
 ---
 
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+</head>
 This is a long documentation of all te knowledge I know about computers, networks and anything of the sort.
 
 All of these tutorials and tips are only for education purposes so I hold no responsibility for anyone's actions.
