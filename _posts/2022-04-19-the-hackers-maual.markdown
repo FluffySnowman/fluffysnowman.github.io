@@ -99,7 +99,7 @@ airmon-ng start wlan0
 
 Airmon-ng will check if the wireless adapter is already in monitor mode and if it is it will kill it. Then it will start the adapter in monitor mode.
 
-If you receive any errors with these commands feel free to leave a comment asking for help with your error in a screenshot and I will try my best to help :)
+If you receive any errors with these commands feel free to leave a comment asking for help with your error in a screenshot and I will try my best to help :) [leave a comment](#comments-section)
 
 So now we have our wireless card in monitor mode. Time to scan for some networks!
 The command airodump-ng will scan for wireless networks around you. But you will have to specify a wireless network interface for it to scan with.
@@ -117,7 +117,33 @@ The output should look similar to this:
 <img src="/assets/pics/airodump-ng_0x1.PNG" alt="airodump-ng_0x1">
 </p>
 
+(exmaple from aircrack-ng's website)
 
+This basically lists all the wireless networks' MAC ID's (BSSID) and their channel. It also lists the BSSIDs of the devices connected to it (station).
+
+Now what you gotta do to get a .cap file (caplet) is create a handshake between a device joining the network and the network itself. To do this you have to kick a device off the network using the STATION MAC ID (station). and the BSSID of the network shown next to it (BSSID).
+You will also have to write this data to a .cap file for cracking later. 
+Note the BSSID of the router, the channel that its on and the STATION MAC ID to kick off the network. Also note down the name of the file you want to save the .cap to. 
+
+Now you will have to run aireplay-ng while airodump-ng is running as you have to capture a handshake- not just kick someone off the wifi. 
+Follow these steps and replace the respective values in <> with the values you got from the airodump-ng output.
+
+Window 1:
+
+```bash
+airodump-ng --bssid <ACCESS POINT BSSID> -c <CHANNEL> -w <FILENAME> <INTERFACE NAME>
+```
+
+Window 2:
+
+```bash
+aireplay-ng -0 0 -a <ACCESS POINT BSSID> -c <STATION MAC ID> <INTERFACE NAME>
+```
+
+Now you have to wait for aireplay-ng to do its job. (If you get any problems with these commands feel free to [leave a comment](#comments-section))
+
+
+<hr>
 
 Once you have these installed, fire up a root temrinal or use `su` / `sudo su` to acquire admin privelages. Now we can start mapping. An [ARP Scan](_posts\2022-04-17-main.markdown#arp) is the best way to start mapping a network.
 One of the easiest ways to do this is to use the `nmap` command.
