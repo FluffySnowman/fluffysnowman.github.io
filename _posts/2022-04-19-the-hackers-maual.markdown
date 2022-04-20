@@ -72,7 +72,7 @@ Give nmap a second to scan the network and then we can see who is connected to t
 <img src="/assets/pics/manual_nmap_0x1.png" alt="manual_nmap_0x1">
 </p>
 
-This usage of the nmap command also shows the count of the amount of hosts that are online (up). This is useful for finding free IPs that can be used to configure IPs manually instead of using DHCP which can be quite problematic [IP Conflicts](/_posts/2022-04-17-main.markdown#dhcp)
+This usage of the nmap command also shows the count of the amount of hosts that are online (up). This is useful for finding free IPs that can be used to configure IPs manually instead of using DHCP which can be quite problematic [IP Conflicts](/jekyll/update/2022/04/19/2022-04-17-main.markdown#dhcp)
 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
