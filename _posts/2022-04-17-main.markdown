@@ -175,6 +175,10 @@ This command usually works for all distributions but may vary for other distribu
 
 ### Change your mac address
 
+Changing your MAC Address can be potentially useful or potentially harmful. It depends on what you're doing and if you know what you're doing. There are 2 ways to change/spoof your MAC Address. One is through changing the MAC address using your operating system(software) and one is changing it through your hardware. I do not recommand changing your hard MAC Address as it is quite a tough job to do for newbies and it will require you to manually take our your NIC (Network Interface Card) and replace it for another one which has a different MAC address. 
+However, you can change it through software aka your operating system's tools.
+
+
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
 ### Change your DNS
