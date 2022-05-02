@@ -207,13 +207,12 @@ sudo ifconfig <interface name> down
 sudo macchanger -r <interface name>
 sudo service network-manager start
 sudo ifconfig <interface name> up
-
 ```
 Where <interface name> is the name of your network interface (ex: `wlan0`).
 
 This will change your mac address to a random one. and the output of the command will look like this:
 
-<p align="center"><img src="/assets/pics/change_mac_0x1.png" alt="change_mac_0x1.png"></p
+<p align="center"><img src="/assets/pics/change_mac_0x1.png" alt="change_mac_0x1.png"></p>
 
 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
