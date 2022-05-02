@@ -244,10 +244,10 @@ This usage of the nmap command also shows the count of the amount of hosts that 
 Social Engineering is a way to make people give up confidential or personal information by deception or manipulation or by fooling them so well that they believe they are entering details into a legit website/form or even a social media account.
 
 There are many ways to conduct social engineering such as-
-- Phishing
-- Pretexting (Scamming)
-- Baiting
-- Scareware
+- [Phishing](#phishing)
+- [Pretexting (Scamming)](#pretexting)
+- [Baiting](#baiting)
+- [Scareware](#scareware)
 
 So... let's start doing some social engineering!
 
@@ -261,7 +261,22 @@ Phising is basically a way to trick people into clicking on a link or button whi
 
 [Back to Index](#index)
 
+### Pretexting
 
+
+[Back to Index](#index)
+
+### Baiting
+
+
+[Back to Index](#index)
+
+
+### Scareware
+
+
+
+[Back to Index](#index)
 
 # COMMENTS SECTION
 
