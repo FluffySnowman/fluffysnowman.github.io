@@ -153,6 +153,8 @@ aireplay-ng -0 0 -a <ACCESS POINT BSSID> -c <STATION MAC ID> <INTERFACE NAME>
 Now you have to wait for aireplay-ng to do its job. (If you get any problems with these commands feel free to [leave a comment](#comments-section))
 If all of this is successful, you should see a line like this at the top of the airodump-ng window:
 
+<b>NOTE: When kicking devices off the network to get a handshake, you should be mindful that anyone could be logging the network and their computer's connection to the network so it is wise to change your MAC Address everytime you boot or everytime you do a deauth attack. Leant how to [Change Your MAc Address here](https://fluffysnowman.github.io/jekyll/update/2022/04/17/main.html#change-your-mac-address)</b>
+
 <p align="center">
 <img src="/assets/pics/airodump-ng_0x2.PNG" alt="airodump-ng 0x2">
 </p>
