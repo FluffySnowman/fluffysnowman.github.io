@@ -37,7 +37,8 @@ Go to the [comments](#comments-section)
     - [WPA Handshakes](#wpa-handshake-cracking)
     - [WEP Handshakes](#wep-handshake-cracking)
     - [Mapping](#network-mapping)
-2. [Phishing](#phishing)
+2. [Social Engineering](#social-engineering)
+    - [Phishing](#phishing)
 
 # Wireless Network Auditing
 
@@ -238,7 +239,19 @@ This usage of the nmap command also shows the count of the amount of hosts that 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
 
-# Phishing
+# Social Engineering
+
+Social Engineering is a way to make people give up confidential or personal information by deception or manipulation or by fooling them so well that they believe they are entering details into a legit website/form or even a social media account.
+
+There are many ways to conduct social engineering such as-
+- Phishing
+- Pretexting (Scamming)
+- Baiting
+- Scareware
+
+So... let's start doing some social engineering!
+
+### Phishing
 
 Phising is basically a way to trick people into clicking on a link or button which captures information about their connection to the website (such as their IP address, their MAC address, their browser, etc) and making them enter details into a form which looks like it is a legit website such as instagram or facebook but the website is hosted by you and it not legit and it logs the details that are in the form once the form is submited after which they get redirected to a page that isnt the legit website and then they know that they've been fooled- or redirect them to a clone of the website which is not legit but looks and feels very similar to the original.
 
