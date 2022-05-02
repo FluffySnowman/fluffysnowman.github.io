@@ -178,6 +178,43 @@ This command usually works for all distributions but may vary for other distribu
 Changing your MAC Address can be potentially useful or potentially harmful. It depends on what you're doing and if you know what you're doing. There are 2 ways to change/spoof your MAC Address. One is through changing the MAC address using your operating system(software) and one is changing it through your hardware. I do not recommand changing your hard MAC Address as it is quite a tough job to do for newbies and it will require you to manually take our your NIC (Network Interface Card) and replace it for another one which has a different MAC address. 
 However, you can change it through software aka your operating system's tools.
 
+Changing your MAC Address on linux is quite simple. First you need to install `macchanger`. To do this, use your default package manager and use the install syntax to install the `macchanger` package like so:
+
+```bash
+sudo apt-get install macchanger     [On Debian, Ubuntu and Mint]
+sudo yum install macchanger         [On RHEL/CentOS/Fedora and Rocky Linux/AlmaLinux]
+sudo emerge -a sys-apps/macchanger  [On Gentoo Linux]
+sudo pacman -S macchanger           [On Arch Linux]
+sudo zypper install macchanger 
+```
+
+While doing this, you wil get a prompt to change a setting where your MAC Address will be changed everytime you boot. This may cause problems so I would go with the "No" option.
+Once this is done, you can use the `macchanger` command to change your MAC Address.
+
+First you will need the network interface name. To do this type in:
+
+```bash
+ifconfig
+#OR YOU COULD TYPE IN
+ip a
+```
+
+Once you have found your network interface name you can use the `macchanger` command to change your MAC Address like so:
+
+```bash
+sudo service network-manager stop
+sudo ifconfig <interface name> down
+sudo macchanger -r <interface name>
+sudo service network-manager start
+sudo ifconfig <interface name> up
+
+```
+Where <interface name> is the name of your network interface (ex: `wlan0`).
+
+This will change your mac address to a random one. and the output of the command will look like this:
+
+<p align="center"><img src="/assets/pics/change_mac_0x1.png" alt="change_mac_0x1.png"></p
+
 
 [Back to Index](#index)<br><br>[Comment](#comments-section)
 
