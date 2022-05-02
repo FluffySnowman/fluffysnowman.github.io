@@ -33,6 +33,7 @@ Go to the [comments](#comments-section)
 1. [Network Auditing](#network-auditing)
     - [Installations](#installations-for-networking)
     - [Aircrack-ng](#wireless-networking-with-aircrack-ng)
+    - [Deauth Attacks](#deauthentication)
     - [WPA Handshakes](#wpa-handshake-cracking)
     - [WEP Handshakes](#wep-handshake-cracking)
     - [Mapping](#network-mapping)
@@ -130,6 +131,8 @@ The output should look similar to this:
 (exmaple from aircrack-ng's website)
 
 This basically lists all the wireless networks' MAC ID's (BSSID) and their channel. It also lists the BSSIDs of the devices connected to it (station).
+
+### Deauthentication
 
 Now what you gotta do to get a .cap file (caplet) is create a handshake between a device joining the network and the network itself. To do this you have to kick a device off the network using the STATION MAC ID (station). and the BSSID of the network shown next to it (BSSID).
 You will also have to write this data to a .cap file for cracking later. 
