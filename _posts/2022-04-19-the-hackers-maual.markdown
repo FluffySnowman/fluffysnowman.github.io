@@ -39,6 +39,9 @@ Go to the [comments](#comments-section)
     - [Mapping](#network-mapping)
 2. [Social Engineering](#social-engineering)
     - [Phishing](#phishing)
+    - [Pretexting](#pretexting)
+    - [Baiting](#baiting)
+    - [Scareware](#scareware)
 
 # Wireless Network Auditing
 
