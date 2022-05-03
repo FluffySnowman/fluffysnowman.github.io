@@ -258,11 +258,14 @@ So... let's start doing some social engineering!
 
 Phising is basically a way to trick people into clicking on a link or button which captures information about their connection to the website (such as their IP address, their MAC address, their browser, etc) and making them enter details into a form which looks like it is a legit website such as instagram or facebook but the website is hosted by you and it not legit and it logs the details that are in the form once the form is submited after which they get redirected to a page that isnt the legit website and then they know that they've been fooled- or redirect them to a clone of the website which is not legit but looks and feels very similar to the original.
 
+There are many ways to conduct phishing. The first and most common way is by using `Ngrok` on the backend.
 
 
 [Back to Index](#index)
 
 ### Pretexting
+
+Pretexting is just another word for scamming in this context. A person uses manipulation and clever language based on lies and pretends to <b>need</b> sensitive information. This is usally done by gaining trust of someone (the victim) or impersonating a bank/tax/police/co-worker which has a "right-to-know" authority. This will lead them to give up information without hesitation and can be used to confirm the victim's identity through which they can gather sensitive or important personal data. 
 
 
 [Back to Index](#index)
