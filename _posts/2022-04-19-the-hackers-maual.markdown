@@ -272,6 +272,8 @@ Pretexting is just another word for scamming in this context. A person uses mani
 
 ### Baiting
 
+Baiting is like capturing a fish in a lake. There is a something the fish (the victim) is greedy for or really likes or is justy curious about; and the fisherman (attacker) is going to give that bait to the fish ()victim) to eventually capture it. The most common form of baiting is used in the real world. Physical objects such are flash drives- infected with auto running malware.
+
 
 [Back to Index](#index)
 
