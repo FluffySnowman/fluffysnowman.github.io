@@ -31,7 +31,7 @@ So you want to connect to this part of the web ? You want to make your own websi
 
 # Setting up TOR
 
-The easiest way to set up TOR is through a package manager on your pc. 
+The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/)
 
 
 
