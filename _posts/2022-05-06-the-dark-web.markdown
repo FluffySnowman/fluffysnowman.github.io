@@ -73,9 +73,37 @@ TOR hostnames are random strings. It <i>IS</i> possible to create your own hostn
 
 So you want to connect to this part of the web ? You want to make your own website on there ? Its quite easy. Just like setting up a normal website locally but you don't need to buy a domain like the clear web and you don't need a dedicated server for it. You run it on localhost (127.0.0.1) and tor does the work for you.
 
+The TOR browser looks like this:
+
+<p align="center">
+<img src="/assets/pics/dark_web_0x1.PNG" alt="darkweb0x1">
+</p>
+
 # Setting up TOR
 
-The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/)
+The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/) and for linux you can install it using your respective package manager.
+Example:
+
+```bash
+sudo apt install tor
+```
+
+This should install all of TOR's required files and binaries. For this tutorial we will be setting up a TOR website on linux as it is way easier. If you wish to do this on Windows or Mac then install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install) or [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or your preferred virtualisation platform.
+
+Once you have the linux distribution of your choice installed and TOR installed, proceed to locate the files of TOR.
+
+```bash
+whereis tor
+```
+
+This will give an ouput similar to this:
+
+<p align="center">
+<img src="/assets/pics/dark_web_whereis0x1.PNG" alt="darkwebwhereis0x1">
+</p>
+
+
+
 
 
 
