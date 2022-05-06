@@ -10,17 +10,6 @@ categories: jekyll update
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for tutorials">
 
-<ul id="myUL">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
-
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
-
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-</ul>
 </div>
 
 
@@ -86,6 +75,16 @@ Welcome to the whole documentation of everything I know about computers and syst
 # INDEX:
 
 Go to the [comments](#comments-section)
+
+<ol>
+    <li><a href="#networking-basics">Networking</a></li> 
+        <ul id="myUL">
+            <li><a href="#networking-basics">Networking basics</a></li>
+            <li><a href="#netmasks">Netmasks</a></li>
+            <li><a href="#dhcp">DHCP</a></li>
+        </ul>
+    <li><a href="#operating-system-security">Security in Operating Systems</a></li>
+</ol>
 
 1. [Networking](#networking-basics)
     - [Basics of Networking](#networking-basics)
