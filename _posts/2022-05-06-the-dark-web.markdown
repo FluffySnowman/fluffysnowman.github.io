@@ -135,6 +135,24 @@ This will start up the TOR service. You can browse any website using the onion c
 <img src="/assets/pics/dark_web_startup_tor.PNG" alt="darkweb_startup_tor">
 </p>
 
+If this goes well you can terminate this process too by hitting `control+c` in the terminal.
+
+Now we have to get our TOR hostname address and connect the service to our web server thats running locally. Move into the tor folder located at `/etc/tor` by using the change directory (`cd`) command.
+
+```bash
+cd /etc/tor
+```
+
+Now we can start editing our `torrc` file. Use the text editor of your choice. I prefer `nano` or `vim` as they can be used in the terminal itself. Use the superuser to edit this file: `sudo nano torrc`.
+
+Now we have to look for these two lines and remove the `#` on the left of them.
+
+<p align="center">
+<img src="/assets/pics/dark_web_torrc_editing.PNG" alt="darkweb_torrc_edit">
+</p>
+
+The lines which are white have the `#` removed from the start of them unlike the others. Change the last number on the 2nd uncommented line to what port you're using to run the web server locally (I'm using `8080`).
+
 
 
 
