@@ -6,6 +6,11 @@ comments: true
 categories: jekyll update
 ---
 
+<div>
+
+<script async src="https://cse.google.com/cse.js?cx=100dcd6f286ab6460"></script>
+<div class="gcse-search"></div>
+
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for tutorials">
 
 <ul id="myUL">
@@ -19,6 +24,8 @@ categories: jekyll update
   <li><a href="#">Christina</a></li>
   <li><a href="#">Cindy</a></li>
 </ul>
+</div>
+
 
 <script>
 function myFunction() {
