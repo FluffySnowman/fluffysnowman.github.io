@@ -102,6 +102,18 @@ This will give an ouput similar to this:
 <img src="/assets/pics/dark_web_whereis0x1.PNG" alt="darkwebwhereis0x1">
 </p>
 
+Note these locations down.
+Now that we know where TOR's files are located, we can start making our website. If you already have a website move/copy it to the folder you want to run a server in.
+
+For the people that just want to make a website and run it and see if it works, put some content in the main file `index.html` and start a server like so (you will require python3 or apache to do this. I personally use python3)-
+
+```bash
+cd /path/to/website/folder
+echo "testing" > index.html
+#only bind to port 8080 if its free
+python3 -m http.server --bind 127.0.0.1:8080
+
+```
 
 
 
