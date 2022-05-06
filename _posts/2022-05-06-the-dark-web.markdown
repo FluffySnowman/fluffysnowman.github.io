@@ -63,10 +63,6 @@ Go to the [comments](#comments-section)
     <li><a href="#setting-up-tor">Setting up TOR</a></li>
 </ol>
 
-1. [Basics](#basics)
-2. [Setting up tor](#setting-up-tor)
-
-
 # Basics
 
 The TOR network (The Onion Router) is basically a way to access the dark web. It is relatively secure compared to accessing the clear web with a normal browser as with normal connections, the browser (you) communicates directly with the server (website) which can let them track you and all that jazz. 
