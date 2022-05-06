@@ -129,6 +129,13 @@ sudo su -
 tor
 ```
 
+This will start up the TOR service. You can browse any website using the onion circuit once this has fully started up. When it has started up correctly, it should look like this:-
+
+<p align="center">
+<img src="/assets/pics/dark_web_startup_tor.PNG" alt="darkweb_startup_tor">
+</p>
+
+
 
 
 # COMMENTS SECTION
