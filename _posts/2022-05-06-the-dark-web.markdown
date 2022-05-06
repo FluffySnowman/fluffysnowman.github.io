@@ -15,8 +15,8 @@ Let's jump right into it:
 Go to the [comments](#comments-section)
 
 # INDEX 
-    1. [Basics](#basics)
-    2. [Setting up tor](#setting-up-tor)
+1. [Basics](#basics)
+2. [Setting up tor](#setting-up-tor)
 
 
 # Basics
