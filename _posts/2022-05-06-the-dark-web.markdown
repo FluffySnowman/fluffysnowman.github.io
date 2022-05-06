@@ -115,6 +115,9 @@ python3 -m http.server --bind 127.0.0.1:8080
 ```
 
 Once you have done this, open up a browser and navigate to `127.0.0.1:8080` to see if the server is up and running. When you load into the website you should see some text in the terminal where you ran the `python3` command.
+If it is up and running you can stop the server by hitting `control+c` in the terminal.
+
+
 
 
 
