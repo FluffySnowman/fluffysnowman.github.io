@@ -12,12 +12,11 @@ Welcome to the guide to everything you can do using the TOR browser and network!
 
 Let's jump right into it:
 
-# Index 
-
 Go to the [comments](#comments-section)
 
-1. [Basics](#basics)
-
+# INDEX 
+    1. [Basics](#basics)
+    2. [Setting up tor](#setting-up-tor)
 
 
 # Basics
@@ -32,7 +31,7 @@ So you want to connect to this part of the web ? You want to make your own websi
 
 # Setting up TOR
 
-
+The easiest way to set up TOR is through a package manager on your pc. 
 
 
 
