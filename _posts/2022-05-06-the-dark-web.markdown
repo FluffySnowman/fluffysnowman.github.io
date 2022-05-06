@@ -79,6 +79,8 @@ The TOR browser looks like this:
 <img src="/assets/pics/dark_web_0x1.PNG" alt="darkweb0x1">
 </p>
 
+[Back to Index](#index)
+
 # Setting up TOR
 
 The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/) and for linux you can install it using your respective package manager.
@@ -185,7 +187,7 @@ It should look like this:
 </p>
 
 
-
+[Back to Index](#index)
 
 # COMMENTS SECTION
 
