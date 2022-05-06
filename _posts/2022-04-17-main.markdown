@@ -46,7 +46,7 @@ function myFunction() {
 }
 </script>
 
-<a href="#networking">go to networking</a>
+<a href="#networking-basics">go to networking</a>
 
 <head>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
