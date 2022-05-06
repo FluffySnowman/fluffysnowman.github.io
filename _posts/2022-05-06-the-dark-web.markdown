@@ -153,6 +153,37 @@ Now we have to look for these two lines and remove the `#` on the left of them.
 
 The lines which are white have the `#` removed from the start of them unlike the others. Change the last number on the 2nd uncommented line to what port you're using to run the web server locally (I'm using `8080`).
 
+Write to the file by hitting `control + o` and `return` and then `control + x` to exit.
+
+With this done, you now have to find the location of your TOR hostname address. Navigate to the directory using the superuser to find the contents of the file `hostname`.
+
+```bash
+sudo su -
+cd /var/lib/tor/hidden_service
+cat hostname
+```
+
+This will give you the hostname that you will put in the search bar to access your website using the TOR Browser. Once you've got this, you can navigae back to your website folder using `cd` and do the following.
+
+Terminal 1:
+```bash
+python3 -m http.server --bind 127.0.0.1 8080
+```
+
+Terminal 2:
+```bash
+sudo tor
+```
+
+This will start your local web server and the 2nd command in the 2nd terminal will connect it to the TOR Circuit. Once all of these have started up succesfully, use the `hostname` that you found and open up the TOR Browser. To install TOR on linux follow [this guide](https://tb-manual.torproject.org/installation/) and for Windows and Mac OS, just run the executable by double clicking it.
+
+Once the browser is up and running, simply paste the `hostname` into the search bar and there you go- you have created a website on the dark/deep web.
+It should look like this:
+
+<p align="center">
+<img src="/assets/pics/dark_web_finished_tor_site_0x1.PNG" alt="darkweb_tor_finished_website">
+</p>
+
 
 
 
