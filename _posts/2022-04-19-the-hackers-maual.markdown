@@ -82,27 +82,14 @@ Go to the [comments](#comments-section)
             <li><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
             <li><a href="#network-mapping">Mapping</a></li>
         </ul>
-    <li><a href="#operating-system-security">Security in Operating Systems</a></li>
+    <li><a href="#social-engineering">Security in Operating Systems</a></li>
         <ul id="myUL">
-            <li><a href="#social-engineering">Social Engineering</a></li>
             <li><a href="#phishing">Phishing</a></li>
             <li><a href="#pretexting">Pretexting</a></li>
+            <li><a href="#baiting">Baiting</a></li>
             <li><a href="#scareware">Scareware</a></li>
         </ul>
 </ol>
-
-1. [Wireless Network Auditing](#wireless-network-auditing)
-    - [Installations](#installations-for-networking)
-    - [Aircrack-ng](#wireless-networking-with-aircrack-ng)
-    - [Deauth Attacks](#deauthentication)
-    - [WPA Handshakes](#wpa-handshake-cracking)
-    - [WEP Handshakes](#wep-handshake-cracking)
-    - [Mapping](#network-mapping)
-2. [Social Engineering](#social-engineering)
-    - [Phishing](#phishing)
-    - [Pretexting](#pretexting)
-    - [Baiting](#baiting)
-    - [Scareware](#scareware)
 
 # Wireless Network Auditing
 
