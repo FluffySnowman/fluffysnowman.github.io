@@ -14,6 +14,12 @@ Let's jump right into it:
 
 Go to the [comments](#comments-section)
 
+<div>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+
+</div>
+
 # INDEX 
 1. [Basics](#basics)
 2. [Setting up tor](#setting-up-tor)

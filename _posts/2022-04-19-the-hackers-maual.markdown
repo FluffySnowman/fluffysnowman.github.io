@@ -28,7 +28,28 @@ So... Let's start hacking.
 
 Go to the [comments](#comments-section)
 
+<div>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+
+</div>
+
 # INDEX:
+
+<ol>
+    <li><a href="#wireless-network-auditing">Wireless Network Auditing</a></li> 
+        <ul id="myUL">
+            <li><a href="#installations-for-networking">Installations</a></li>
+            <li><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>
+            <li><a href="#deauthentication">Deauth Attacks</a></li>
+            <li><a href="#wpa-handshake-cracking">WPA Handshakes</a></li>
+            <li><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
+            <li><a href="#network-mapping">Mapping</a></li>
+        </ul>
+    <li><a href="#operating-system-security">Security in Operating Systems</a></li>
+        <ul id="myUL">
+        </ul>
+</ol>
 
 1. [Wireless Network Auditing](#wireless-network-auditing)
     - [Installations](#installations-for-networking)
