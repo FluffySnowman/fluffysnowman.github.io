@@ -48,6 +48,10 @@ Go to the [comments](#comments-section)
         </ul>
     <li><a href="#operating-system-security">Security in Operating Systems</a></li>
         <ul id="myUL">
+            <li><a href="#social-engineering">Social Engineering</a></li>
+            <li><a href="#phishing">Phishing</a></li>
+            <li><a href="#pretexting">Pretexting</a></li>
+            <li><a href="#scareware">Scareware</a></li>
         </ul>
 </ol>
 
