@@ -334,6 +334,8 @@ Baiting is like capturing a fish in a lake. There is a something the fish (the v
 
 ### Scareware
 
+Scareware is basically spamming or bombarding the victim's computer/email/website theyre using with false alarms and false "threats" that are present on their device such as- "Your computer computer is infected with a virus. Install this tool to fix it". When the victim installs this tool, they will be infected with the virus. It could be anything from a fake scanner which sends information to the perpetrator or infects the computer with malware which can cause it to crash/BSOD/etc. These "Scarewares" can also be promoted through emails (sent to a large amount of people) where the perpetrator asks the victim to install a paid/free tool which could infect their computer or it just does nothing and your money is wasted.
+
 
 
 [Back to Index](#index)
