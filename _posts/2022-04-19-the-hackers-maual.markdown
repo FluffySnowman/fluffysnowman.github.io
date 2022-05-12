@@ -309,9 +309,11 @@ So... let's start doing some social engineering!
 
 ### Phishing
 
-Phising is basically a way to trick people into clicking on a link or button which captures information about their connection to the website (such as their IP address, their MAC address, their browser, etc) and making them enter details into a form which looks like it is a legit website such as instagram or facebook but the website is hosted by you and it not legit and it logs the details that are in the form once the form is submited after which they get redirected to a page that isnt the legit website and then they know that they've been fooled- or redirect them to a clone of the website which is not legit but looks and feels very similar to the original.
+Phising is basically a way to trick people into clicking on a link or button which captures information about their connection to the website (such as their IP address, their MAC address, their browser, etc) and making them enter details into a form which looks like it is a legit website such as instagram or facebook but the website is hosted by you and it not legit and it logs the details that are in the form once the form is submited after which they get redirected to a page that isnt the legit website and then they know that they've been fooled- or redirect them to a clone of the website which is not legit but looks and feels very similar to the original. There are also other types of phishing such as using a cloneed wifi network usually with the word "FREE" in the essid and allowing people to connect to it. Once this is done, you can ARP Spoof them, conduct an evil twin attack or just find out any information using this methods.
 
 There are many ways to conduct phishing. The first and most common way is by using `Ngrok` on the backend.
+
+The go-to phishing tools I use is [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit) , [WifiPhisher](https://github.com/wifiphisher/wifiphisher, [zphisher](https://github.com/trustedsec/social-engineer-toolkit) or [markphish](https://github.com/jaykali/maskphish).
 
 
 [Back to Index](#index)
