@@ -313,7 +313,7 @@ Phising is basically a way to trick people into clicking on a link or button whi
 
 There are many ways to conduct phishing. The first and most common way is by using `Ngrok` on the backend.
 
-The go-to phishing tools I use is [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit) , [WifiPhisher](https://github.com/wifiphisher/wifiphisher), [zphisher](https://github.com/trustedsec/social-engineer-toolkit) or [markphish](https://github.com/jaykali/maskphish).
+The go-to phishing tools I use is [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit){:target="\_blank"} , [WifiPhisher](https://github.com/wifiphisher/wifiphisher){:target="\_blank"}, [zphisher](https://github.com/trustedsec/social-engineer-toolkit){:target="\_blank"} or [maskphish](https://github.com/jaykali/maskphish){:target="\_blank"}.
 
 First I will explain the process behind Cloned wifi attacks (Evil twin) because it might be a bit confusing for newbies.
 
