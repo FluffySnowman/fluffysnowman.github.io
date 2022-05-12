@@ -313,14 +313,17 @@ Phising is basically a way to trick people into clicking on a link or button whi
 
 There are many ways to conduct phishing. The first and most common way is by using `Ngrok` on the backend.
 
-The go-to phishing tools I use is [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit) , [WifiPhisher](https://github.com/wifiphisher/wifiphisher, [zphisher](https://github.com/trustedsec/social-engineer-toolkit) or [markphish](https://github.com/jaykali/maskphish).
+The go-to phishing tools I use is [SET (Social Engineering Toolkit)](https://github.com/trustedsec/social-engineer-toolkit) , [WifiPhisher](https://github.com/wifiphisher/wifiphisher), [zphisher](https://github.com/trustedsec/social-engineer-toolkit) or [markphish](https://github.com/jaykali/maskphish).
 
+First I will explain the process behind Cloned wifi attacks (Evil twin) because it might be a bit confusing for newbies.
 
 [Back to Index](#index)
 
 ### Pretexting
 
 Pretexting is just another word for scamming in this context. A person uses manipulation and clever language based on lies and pretends to <b>need</b> sensitive information. This is usally done by gaining trust of someone (the victim) or impersonating a bank/tax/police/co-worker which has a "right-to-know" authority. This will lead them to give up information without hesitation and can be used to confirm the victim's identity through which they can gather sensitive or important personal data. 
+
+
 
 
 [Back to Index](#index)
