@@ -82,14 +82,14 @@ The TOR browser looks like this:
 
 # Setting up TOR
 
-The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/) and for linux you can install it using your respective package manager.
+The easiest way to set up TOR is through a package manager on your pc. For Windows you can set it up by downloading it on their [official website](https://www.torproject.org/download/){:target="\_blank"} and for linux you can install it using your respective package manager.
 Example:
 
 ```bash
 sudo apt install tor
 ```
 
-This should install all of TOR's required files and binaries. For this tutorial we will be setting up a TOR website on linux as it is way easier. If you wish to do this on Windows or Mac then install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install) or [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or your preferred virtualisation platform.
+This should install all of TOR's required files and binaries. For this tutorial we will be setting up a TOR website on linux as it is way easier. If you wish to do this on Windows or Mac then install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install){:target="\_blank"} or [VirtualBox](https://www.virtualbox.org/wiki/Downloads){:target="\_blank"} or your preferred virtualisation platform.
 
 Once you have the linux distribution of your choice installed and TOR installed, proceed to locate the files of TOR.
 
