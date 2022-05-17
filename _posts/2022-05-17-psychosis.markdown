@@ -63,8 +63,19 @@ Go to the [comments](#comments-section)
 </div>
 
 
+# The Grey Man
 
+<p align="center">
+<img src="/assets/pics/psych0x11.jpg" alt="change_ip_0x1">
+</p>
 
+a
+
+<hr>
+
+<p align="center">
+<img src="/assets/pics/psych0x8.jpg" alt="change_ip_0x1">
+</p>
 
 
 [Back to Index](#index)
