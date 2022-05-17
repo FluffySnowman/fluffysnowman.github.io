@@ -39,6 +39,32 @@ function myFunction() {
   margin-bottom: 12px; 
 }
 
+
+ .image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .box {
+      flex-basis: 25%;
+      width: 100%;
+      padding: 10px;
+      margin: 2px;
+  }
+
+  .img-gallery {
+	width: 100%;
+  height: 200px;
+	object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+
 </style>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -61,6 +87,23 @@ Go to the [comments](#comments-section)
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
 
 </div>
+
+
+<div class ="image-gallery">
+  {% assign sorted = site.static_files | sort: 'date' | reverse %}
+  {% for file in sorted %}
+  {% if file.path contains include.folder %}
+  {% if file.extname == '.png' %}
+    {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+       <div class="box"><a href="{{ file.path | relative_url }}" title="{{ filename }}">
+         <img src="{{ site.thumbsurl }}{{file.name }} " alt="{{ filename }}"  class="img-gallery" />
+       </a></div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+ </div>
+
 
 
 # The Voices
