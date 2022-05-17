@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Psychosis"
-date: 2022-05-18 +0530
+date: 2022-05-17 +0530
 comments: true
 categories: jekyll update
 ---
