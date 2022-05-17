@@ -71,7 +71,9 @@ Go to the [comments](#comments-section)
 
 testing
 
-<br/><hr/><br/>
+<br>
+<hr>
+<br>
 
 <p align="center">
 <img src="/assets/pics/psych0x8.jpg" alt="change_ip_0x1">
