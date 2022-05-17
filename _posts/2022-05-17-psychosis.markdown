@@ -63,20 +63,55 @@ Go to the [comments](#comments-section)
 </div>
 
 
-# The Grey Man
+# The Voices
 
 <p align="center">
-<img src="/assets/pics/psych0x11.jpg" alt="change_ip_0x1">
+<img src="/assets/pics/psych0x9.jpg" alt="change_ip_0x1">
 </p>
 
 a
 
-<hr>
+<br><hr><br>
 
 <p align="center">
 <img src="/assets/pics/psych0x8.jpg" alt="change_ip_0x1">
 </p>
 
+<p align="center">
+<img src="/assets/pics/psych0x1.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x4.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x5.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x6.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x2.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x3.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x7.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x11.jpg" alt="change_ip_0x1">
+</p>
+
+<p align="center">
+<img src="/assets/pics/psych0x10.jpg" alt="change_ip_0x1">
+</p>
 
 [Back to Index](#index)
 
