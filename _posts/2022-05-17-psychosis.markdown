@@ -201,7 +201,7 @@ Go to the [comments](#comments-section)
 
   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-      <img src="/assets/psychosis/psych0x4.png" style="width:100%">
+      <img src="/assets/psychosis/psych0x4.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
@@ -230,25 +230,25 @@ Go to the [comments](#comments-section)
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="/assets/psychosis/psych0x1.png" style="width:100%" onclick="currentSlide(1)" alt="My perception of faces">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      <img class="demo cursor" src="/assets/psychosis/psych0x2.png" style="width:100%" onclick="currentSlide(2)" alt="Another perception of faces">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(3)" alt="Warped faces">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="/assets/psychosis/psych0x4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Something I saw the other day">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x4.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="/assets/psychosis/psych0x5.png" style="width:100%" onclick="currentSlide(5)" alt="the plague doctor watching me">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x5.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="/assets/psychosis/psych0x6.png" style="width:100%" onclick="currentSlide(6)" alt="Some wacky woman trynna kill me">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x6.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="/assets/psychosis/psych0x7.png" style="width:100%" onclick="currentSlide(6)" alt="The Face that follows me everywhere">
     </div>
   </div>
 </div>
