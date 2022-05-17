@@ -4,13 +4,6 @@ title: "Psychosis"
 date: 2022-05-17 +0530
 comments: true
 categories: jekyll update
-images:
-  - image_path: /assets/psychosis/psych0x1.jpg
-    title: 1
-  - image_path: /assets/psychosis/psych0x2.jpg
-    title: 2
-  - image_path: /assets/psychosis/psych0x3.jpg
-    title: 3
 ---
 
 <script>
@@ -46,6 +39,28 @@ function myFunction() {
   margin-bottom: 12px; 
 }
 
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 </style>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -69,14 +84,33 @@ Go to the [comments](#comments-section)
 
 </div>
 
+<div class="gallery">
+  <a target="_blank" href="/assets/pics/psych0x9.jpg">
+    <img src="/assets/pics/psych0x9.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-<ul class="photo-gallery">
-  {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
-  {% endfor %}
-</ul>
+<div class="gallery">
+  <a target="_blank" href="/assets/pics/psych0x8.jpg">
+    <img src="/assets/pics/psych0x8.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
+<div class="gallery">
+  <a target="_blank" href="/assets/pics/psych0x1.jpg">
+    <img src="/assets/pics/psych0x1.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
+<div class="gallery">
+  <a target="_blank" href="/assets/pics/psych0x4.jpg">
+    <img src="/assets/pics/psych0x4.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
 # The Voices
 
