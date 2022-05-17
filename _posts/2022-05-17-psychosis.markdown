@@ -186,32 +186,32 @@ Go to the [comments](#comments-section)
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
-      <img src="/assets/psychosis/psych0x1.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
-      <img src="/assets/psychosis/psych0x2.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x2.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
-      <img src="/assets/psychosis/psych0x3.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x3.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-      <img src="/assets/psychosis/psych0x4.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x4.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-      <img src="/assets/psychosis/psych0x5.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x5.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-      <img src="/assets/psychosis/psych0x6.jpg" style="width:100%">
+      <img src="/assets/psychosis/psych0x6.png" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -226,22 +226,22 @@ Go to the [comments](#comments-section)
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="/assets/psychosis/psych0x1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      <img class="demo cursor" src="/assets/psychosis/psych0x2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x4.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="/assets/psychosis/psych0x4.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x5.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="/assets/psychosis/psych0x5.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
     </div>
   </div>
 </div>
