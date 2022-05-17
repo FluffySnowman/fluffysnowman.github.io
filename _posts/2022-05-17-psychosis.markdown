@@ -213,6 +213,10 @@ Go to the [comments](#comments-section)
     <div class="numbertext">6 / 6</div>
       <img src="/assets/psychosis/psych0x6.png" style="width:100%">
   </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/assets/psychosis/psych0x7.png" style="width:100%">
+  </div>
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -242,6 +246,9 @@ Go to the [comments](#comments-section)
     </div>
     <div class="column">
       <img class="demo cursor" src="/assets/psychosis/psych0x5.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/psychosis/psych0x6.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
     </div>
   </div>
 </div>
