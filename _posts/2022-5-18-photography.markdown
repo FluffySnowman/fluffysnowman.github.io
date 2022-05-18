@@ -77,6 +77,8 @@ Go to the [comments](#comments-section)
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
                 <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
+                <li><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
+                <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
           </ul>
 </ol>
 
@@ -93,9 +95,6 @@ Go to the [comments](#comments-section)
 </p>
 
 
-
-
-
 <br>
 <hr>
 <br>
@@ -106,6 +105,18 @@ Go to the [comments](#comments-section)
 
 <p align="center">
 <img src="/assets/photography/lampred.png" alt="redlampedit">
+</p>
+
+#### Glitched Hacker in Hoodie v1
+
+<p align="center">
+<img src="/assets/photography/glitchalf.gif" alt="glitch1">
+</p>
+
+#### Glitched Hacker in Hoodie v2
+
+<p align="center">
+<img src="/assets/photography/glitchfull.gif" alt="glitch2">
 </p>
 
 
