@@ -72,15 +72,11 @@ Go to the [comments](#comments-section)
 
 <ol>
     <li><a href="#psychotic-illustrations">Psychotic Illustrations</a></li> 
-        <ul id="myUL">
+          <ul id="myUL">
             <li><a href="#voices-in-dark-rooms">The Voices in Dark Rooms</a></li>
-        </ul>
-        <ul id="myUL">
             <li><a href="#the-grey-man">The Grey Man</a></li>
-        </ul>
-        <ul id="myUL">
             <li><a href="#the-grey-man-at-night">The Grey Man at Night</a></li>
-        </ul>
+          </ul>
     <li><a href=""></a></li>
         <ul id="myUL">
         </ul>
