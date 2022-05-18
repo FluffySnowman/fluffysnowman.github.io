@@ -72,7 +72,7 @@ Go to the [comments](#comments-section)
     <li><a href="#photography">Photography</a></li> 
           <ul id="myUL">
             <li><a href="#brighton-beach-at-dusk">Brighton Beaches</a></li>
-            <li><a href="#the-grey-man">a</a></li>
+            <li><a href="#brighton-beach-at-dawn-1">a</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
@@ -94,6 +94,17 @@ Go to the [comments](#comments-section)
 <img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
 </p>
 
+[Back to Index](#index)
+
+#### Brighton beach at Dawn 1
+
+<p align="center">
+<img src="/assets/photography/brightonbeachdawn1.jpg" alt="brightonbeachatdawn">
+</p>
+
+
+
+[Back to Index](#index)
 
 <br>
 <hr>
@@ -107,17 +118,30 @@ Go to the [comments](#comments-section)
 <img src="/assets/photography/lampred.png" alt="redlampedit">
 </p>
 
+[Back to Index](#index)
+
 #### Glitched Hacker in Hoodie v1
 
 <p align="center">
 <img src="/assets/photography/glitchalf.gif" alt="glitch1">
 </p>
 
+[Back to Index](#index)
+
 #### Glitched Hacker in Hoodie v2
 
 <p align="center">
 <img src="/assets/photography/glitchfull.gif" alt="glitch2">
 </p>
+
+[Back to Index](#index)
+
+
+
+
+
+
+
 
 
 [Back to Index](#index)
