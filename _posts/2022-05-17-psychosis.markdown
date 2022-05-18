@@ -248,7 +248,7 @@ Go to the [comments](#comments-section)
       <img class="demo cursor" src="/assets/psychosis/psych0x1.png" style="width:100%" onclick="currentSlide(1)" alt="My perception of faces">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x2.png" style="width:100%" onclick="currentSlide(2)" alt="Another perception of faces">
+      <img class="demo cursor" src="/assets/psychosis/psych0x2.png" style="width:100%; height:90%" onclick="currentSlide(2)" alt="Another perception of faces">
     </div>
     <div class="column">
       <img class="demo cursor" src="/assets/psychosis/psych0x3.png" style="width:100%" onclick="currentSlide(3)" alt="Warped faces">
