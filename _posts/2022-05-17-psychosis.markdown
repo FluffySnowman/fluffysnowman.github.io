@@ -217,7 +217,22 @@ Go to the [comments](#comments-section)
     <div class="numbertext">6 / 6</div>
       <img src="/assets/psychosis/psych0x7.png" style="width:100%">
   </div>
-
+    <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/assets/psychosis/psych0x8.png" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/assets/psychosis/psych0x9.jpg" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/assets/psychosis/psych0x10.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/assets/psychosis/psych0x11.png" style="width:100%">
+  </div>
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -249,6 +264,18 @@ Go to the [comments](#comments-section)
     </div>
     <div class="column">
       <img class="demo cursor" src="/assets/psychosis/psych0x7.png" style="width:100%" onclick="currentSlide(6)" alt="The Face that follows me everywhere">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="/assets/psychosis/psych0x8.png" style="width:100%" onclick="currentSlide(6)" alt="The Grey man when I try to sleep">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="/assets/psychosis/psych0x9.jpg" style="width:100%" onclick="currentSlide(6)" alt="When I'm in a dark room with barely any light">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="/assets/psychosis/psych0x10.png" style="width:100%" onclick="currentSlide(6)" alt="2 headed monster with knives">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="/assets/psychosis/psych0x11.png" style="width:100%" onclick="currentSlide(6)" alt="The Grey Man in the morning">
     </div>
   </div>
 </div>
