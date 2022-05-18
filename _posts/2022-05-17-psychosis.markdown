@@ -185,52 +185,52 @@ Go to the [comments](#comments-section)
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
+    <div class="numbertext">1 / 11</div>
       <img src="/assets/psychosis/psych0x1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
+    <div class="numbertext">2 / 11</div>
       <img src="/assets/psychosis/psych0x2.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
+    <div class="numbertext">3 / 11</div>
       <img src="/assets/psychosis/psych0x3.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
+    <div class="numbertext">4 / 11</div>
       <img src="/assets/psychosis/psych0x4.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
+    <div class="numbertext">5 / 11</div>
       <img src="/assets/psychosis/psych0x5.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">6 / 11</div>
       <img src="/assets/psychosis/psych0x6.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">7 / 11</div>
       <img src="/assets/psychosis/psych0x7.png" style="width:100%">
   </div>
     <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">8 / 11</div>
       <img src="/assets/psychosis/psych0x8.png" style="width:100%">
   </div>
     <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">9 / 11</div>
       <img src="/assets/psychosis/psych0x9.jpg" style="width:100%">
   </div>
     <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">10 / 11</div>
       <img src="/assets/psychosis/psych0x10.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
+    <div class="numbertext">11 / 11</div>
       <img src="/assets/psychosis/psych0x11.png" style="width:100%">
   </div>
   <!-- Next and previous buttons -->
@@ -263,19 +263,19 @@ Go to the [comments](#comments-section)
       <img class="demo cursor" src="/assets/psychosis/psych0x6.png" style="width:100%" onclick="currentSlide(6)" alt="Some wacky woman trynna kill me">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x7.png" style="width:100%" onclick="currentSlide(6)" alt="The Face that follows me everywhere">
+      <img class="demo cursor" src="/assets/psychosis/psych0x7.png" style="width:100%" onclick="currentSlide(7)" alt="The Face that follows me everywhere">
     </div>
      <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x8.png" style="width:100%" onclick="currentSlide(6)" alt="The Grey man when I try to sleep">
+      <img class="demo cursor" src="/assets/psychosis/psych0x8.png" style="width:100%" onclick="currentSlide(8)" alt="The Grey man when I try to sleep">
     </div>
      <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x9.jpg" style="width:100%" onclick="currentSlide(6)" alt="When I'm in a dark room with barely any light">
+      <img class="demo cursor" src="/assets/psychosis/psych0x9.jpg" style="width:100%" onclick="currentSlide(9)" alt="When I'm in a dark room with barely any light">
     </div>
      <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x10.png" style="width:100%" onclick="currentSlide(6)" alt="2 headed monster with knives">
+      <img class="demo cursor" src="/assets/psychosis/psych0x10.png" style="width:100%" onclick="currentSlide(10)" alt="2 headed monster with knives">
     </div>
      <div class="column">
-      <img class="demo cursor" src="/assets/psychosis/psych0x11.png" style="width:100%" onclick="currentSlide(6)" alt="The Grey Man in the morning">
+      <img class="demo cursor" src="/assets/psychosis/psych0x11.png" style="width:100%" onclick="currentSlide(11)" alt="The Grey Man in the morning">
     </div>
   </div>
 </div>
