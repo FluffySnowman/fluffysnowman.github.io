@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "testing"
-date: 2022-08-22 +0530
+date: 2021-08-22 +0530
 comments: true
 categories: jekyll update
 ---
