@@ -62,13 +62,50 @@ Go to the [comments](#comments-section)
 
 </div>
 
+<hr>
+<br>
 
-# Brighton Beach at Dusk
+# Index
+
+<ol>
+    <li><a href="#photography">Photography</a></li> 
+          <ul id="myUL">
+            <li><a href="#brighton-beach-at-dusk">Brighton Beaches</a></li>
+            <li><a href="#the-grey-man">a</a></li>
+          </ul>
+    <li><a href="#edited-photography">Edited Photography</a></li>
+            <ul id="myUL">
+                <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
+          </ul>
+</ol>
+
+<br>
+<hr>
+<br>
+
+# Photography
+
+#### Brighton Beach at Dusk
 
 <p align="center">
 <img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
 </p>
 
+
+
+
+
+<br>
+<hr>
+<br>
+
+# Edited Photography
+
+#### The Red Lamp Post
+
+<p align="center">
+<img src="/assets/photography/lampred.png" alt="redlampedit">
+</p>
 
 
 [Back to Index](#index)
