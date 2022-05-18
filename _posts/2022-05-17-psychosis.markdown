@@ -71,7 +71,7 @@ Go to the [comments](#comments-section)
 # INDEX:
 
 <ol>
-    <li><a href="#psychotic-illustrations">Psychotic Illustrations</a></li> 
+    <li><a align="center" href="#psychotic-illustrations">Psychotic Illustrations</a></li> 
         <ul id="myUL">
             <li><a href="#voices-in-dark-rooms">The Voices in Dark Rooms</a></li>
         </ul>
