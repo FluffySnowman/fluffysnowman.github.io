@@ -75,6 +75,9 @@ Go to the [comments](#comments-section)
         <ul id="myUL">
             <li><a href="#voices-in-dark-rooms">The Voices in Dark Rooms</a></li>
         </ul>
+        <ul id="myUL">
+            <li><a href="#the-grey-man">The Grey Man</a></li>
+        </ul>
     <li><a href=""></a></li>
         <ul id="myUL">
         </ul>
@@ -84,13 +87,30 @@ Go to the [comments](#comments-section)
 <hr>
 <br>
 
-<h1 align="center"> Psychotic Illustrations</h1>
+<h1 align="center">Psychotic Illustrations</h1>
 
 ### Voices in Dark Rooms
 
 <p align="center">
 <img src="/assets/psychosis/psych0x9.jpg" alt="they can see you">
 </p>
+
+### The Grey Man
+
+<p align="center">
+<img src="/assets/psychosis/psych0x11.jpg" alt="they can see you">
+</p>
+
+All he does is stare at me :)
+
+### The Grey Man at Night
+
+<p align="center">
+<img src="/assets/psychosis/psych0x8.jpg" alt="they can see you">
+</p>
+
+He also stares but speaks using my mind
+
 
 
 [Back to Index](#index)
