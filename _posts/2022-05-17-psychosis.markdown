@@ -94,13 +94,15 @@ Go to the [comments](#comments-section)
 <img src="/assets/psychosis/psych0x9.jpg" alt="they can see you">
 </p>
 
+<br>
+
 ### The Grey Man
 
 <p align="center">
 <img src="/assets/psychosis/psych0x11.jpg" alt="they can see you">
 </p>
-
 All he does is stare at me :)
+<br>
 
 ### The Grey Man at Night
 
@@ -110,7 +112,7 @@ All he does is stare at me :)
 
 He also stares but speaks using my mind
 
-
+<br>
 
 [Back to Index](#index)
 
