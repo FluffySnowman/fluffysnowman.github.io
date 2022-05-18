@@ -71,8 +71,8 @@ Go to the [comments](#comments-section)
 <ol>
     <li><a href="#photography">Photography</a></li> 
           <ul id="myUL">
-            <li><a href="#brighton-beach-at-dusk">Brighton Beaches</a></li>
-            <li><a href="#brighton-beach-at-dawn-1">a</a></li>
+            <li><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
+            <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
@@ -88,7 +88,7 @@ Go to the [comments](#comments-section)
 
 # Photography
 
-#### Brighton Beach at Dusk
+#### Brighton Beach at Dusk 1
 
 <p align="center">
 <img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
