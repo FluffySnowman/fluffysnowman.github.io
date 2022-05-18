@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "testing"
+title: "Photography by The Fluffy Snowman"
 date: 2022-05-18 +0530
 comments: true
 categories: jekyll update
