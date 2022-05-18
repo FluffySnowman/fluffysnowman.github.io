@@ -66,7 +66,7 @@ Go to the [comments](#comments-section)
 # Brighton Beach at Dusk
 
 <p align="center">
-<img src="/assets/photography/brightonbeachnight.HEIC" alt="brightonbeachatnight">
+<img src="/assets/photography/brightonbeachnight.png" alt="brightonbeachatnight">
 </p>
 
 
