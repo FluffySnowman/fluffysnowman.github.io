@@ -64,7 +64,9 @@ Go to the [comments](#comments-section)
 
 </div>
 
+<br>
 <hr>
+<br>
 
 # INDEX:
 
@@ -78,7 +80,9 @@ Go to the [comments](#comments-section)
         </ul>
 </ol>
 
+<br>
 <hr>
+<br>
 
 # Psychotic Illustrations
 
