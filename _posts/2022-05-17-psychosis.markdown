@@ -146,6 +146,7 @@ function showSlides(n) {
 .column {
   float: left;
   width: 16.66%;
+  height: 16.66%
 }
 
 /* Add a transparency effect for thumnbail images */
