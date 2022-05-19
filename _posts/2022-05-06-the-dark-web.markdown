@@ -58,6 +58,9 @@ Go to the [comments](#comments-section)
 
 </div>
 
+<hr>
+<br>
+
 # INDEX 
 
 <ol id="myUL">

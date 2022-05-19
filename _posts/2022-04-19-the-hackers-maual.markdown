@@ -76,10 +76,13 @@ Go to the [comments](#comments-section)
 
 </div>
 
+<hr>
+<br>
+
 # INDEX:
 
 <ol>
-    <li><a class="indexvals" href="#wireless-network-auditing">Wireless Network Auditing</a></li> 
+    <li class="indexvals"><a href="#wireless-network-auditing">Wireless Network Auditing</a></li> 
         <ul id="myUL">
             <li class="indexvals"><a href="#installations-for-networking">Installations</a></li>
             <li class="indexvals"><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>

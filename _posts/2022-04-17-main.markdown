@@ -91,6 +91,9 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 </div>
 
+<hr>
+<br>
+
 # INDEX:
 
 Go to the [comments](#comments-section)
