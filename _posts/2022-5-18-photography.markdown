@@ -225,7 +225,7 @@ Go to the [comments](#comments-section)
 #### Brighton beach at Dawn 1
 
 <p align="center">
-<img src="/assets/photography/brightonbeachdawn1.jpg" alt="brightonbeachatdawn">
+<img src="/assets/photography/brightonbeachdawn1.jpg" alt="brightonbeachatdawn" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -233,13 +233,13 @@ Go to the [comments](#comments-section)
 #### Goa sunset 1
 
 <p align="center">
-<img src="/assets/photography/goabeachsunset1.jpg" alt="goabeachsunset1">
+<img src="/assets/photography/goabeachsunset1.jpg" alt="goabeachsunset1" onclick="window.open(this.src)">
 </p>
 
 #### Goa sunrise 1
 
 <p align="center">
-<img src="/assets/photography/goabeachdawn.jpg" alt="goabeachdawn1">
+<img src="/assets/photography/goabeachdawn.jpg" alt="goabeachdawn1" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -253,7 +253,7 @@ Go to the [comments](#comments-section)
 #### The Red Lamp Post
 
 <p align="center">
-<img src="/assets/photography/lampred.png" alt="redlampedit">
+<img src="/assets/photography/lampred.png" alt="redlampedit" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -261,7 +261,7 @@ Go to the [comments](#comments-section)
 #### The White Lamp Post with me Smoking
 
 <p align="center">
-<img src="/assets/photography/lampsmoking.png" alt="lampsmoking">
+<img src="/assets/photography/lampsmoking.png" alt="lampsmoking" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -269,7 +269,7 @@ Go to the [comments](#comments-section)
 #### Glitched Hacker in Hoodie v1
 
 <p align="center">
-<img src="/assets/photography/glitchalf.gif" alt="glitch1">
+<img src="/assets/photography/glitchalf.gif" alt="glitch1" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -277,7 +277,7 @@ Go to the [comments](#comments-section)
 #### Glitched Hacker in Hoodie v2
 
 <p align="center">
-<img src="/assets/photography/glitchfull.gif" alt="glitch2">
+<img src="/assets/photography/glitchfull.gif" alt="glitch2" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
