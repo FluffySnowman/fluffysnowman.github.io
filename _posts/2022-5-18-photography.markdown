@@ -98,8 +98,6 @@ Go to the [comments](#comments-section)
                 <li><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
                 <li><a href="#the-m00n">The M00n</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
-
-
           </ul>
 </ol>
 
