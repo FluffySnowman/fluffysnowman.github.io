@@ -78,7 +78,7 @@ Go to the [comments](#comments-section)
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
                 <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
-                <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp with my smoking</a></li>
+                <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
           </ul>
