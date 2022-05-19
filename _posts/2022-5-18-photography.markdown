@@ -86,7 +86,7 @@ Go to the [comments](#comments-section)
             <li><a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
             <li><a href="#just-some-clouds-1">Just some clouds 1</a></li>
             <li><a href="#a-sunrise-in-france">A sunrise in france</a></li>
-            <li><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>">
+            <li><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>
             <li><a href="#capturing-lightning-in-frames">Capturing Lightning in Frames</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
