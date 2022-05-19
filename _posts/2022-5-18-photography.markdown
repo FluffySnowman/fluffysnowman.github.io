@@ -32,26 +32,30 @@ function myFunction() {
 
 ////////////////////////////////////
 
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
 var modalImg = document.getElementById("img01");
+// and the caption in the modal
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-} 
+}
 
 </script>
 
@@ -68,32 +72,39 @@ span.onclick = function() {
 }
 
 
-
-
 #myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+#myImg:hover {
+  opacity: 0.7;
 }
 
-/* Modal Content (Image) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
 .modal-content {
   margin: auto;
   display: block;
@@ -101,7 +112,6 @@ span.onclick = function() {
   max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
   display: block;
@@ -113,18 +123,21 @@ span.onclick = function() {
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+.modal-content,
+#caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
 }
 
-/* The Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -142,12 +155,12 @@ span.onclick = function() {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
+
 
 </style>
 
@@ -204,21 +217,15 @@ Go to the [comments](#comments-section)
 #### Brighton Beach at Dusk 1
 
 
-<img id="myImg" src="/assets/photography/brightonbeachnight.jpg" alt="beach" style="width:100%">
-
-<!-- The Modal -->
+<img class="myImages" id="myImg" src="http://onebigphoto.com/uploads/2012/10/midnight-sun-in-lofoten-norway.jpg" alt="Midnight sun in Lofoten, Norway" width="300" height="200">
+<img class="myImages" id="myImg" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1490029386/fisherman-cabin-hamnoy-lofoten-islands-norway-NORWAY0320.jpg?itok=cpPuUjh1" alt="Fishermen's cabins in Lofoten, Norway"
+width="300" height="200">
+<img class="myImages" id="myImg" src="http://fjordtours.blob.core.windows.net/fjordtours-umbraco/1199/gerirangerfjord-per-ottar-walderhaug-fjordnorway.jpg" alt="Gerirangerfjord, Norway" width="300" height="200">
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
   <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 </div>
-
 <!--
 <p align="center">
 <img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
