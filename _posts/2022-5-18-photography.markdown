@@ -125,7 +125,7 @@ Go to the [comments](#comments-section)
 #### Goa sunrise 1
 
 <p align="center">
-<img src="/assets/photography/goabeachdawn.jpg" alt="goabeachdawn1" onclick="window.open(this.src)">
+<img src="/assets/photography/goabeachdawn1.jpg" alt="goabeachdawn1" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
