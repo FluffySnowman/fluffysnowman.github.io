@@ -25,6 +25,90 @@ function myFunction() {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+var fsmActual = document.createElement('div');
+fsmActual.setAttribute('id', 'fsm_actual');
+document.body.appendChild(fsmActual);
+var $fsm = document.querySelectorAll('.fsm');;
+var $fsmActual = document.querySelector('#fsm_actual');
+$fsmActual.style.position = "absolute";
+
+var position = {};
+var size = {};
+
+
+//modal action stuffs
+var openFSM = function(event) {
+	var $this = event.currentTarget;
+	position = $this.getBoundingClientRect();
+	size = {
+		width: window.getComputedStyle($this).width,
+		height: window.getComputedStyle($this).height
+	}
+	
+	$fsmActual.style.position = "absolute";
+	$fsmActual.style.top = position.top + 'px';
+	$fsmActual.style.left = position.left + 'px';
+	$fsmActual.style.height = size.height;
+	$fsmActual.style.width = size.width;
+	$fsmActual.style.margin = $this.style.margin;
+	
+	setTimeout(function(){
+		$fsmActual.innerHTML = $this.innerHTML;
+		var classes = $this.classList.value.split(' ');
+		for (var i = 0; i < classes.length; i++) {
+			$fsmActual.classList.add(classes[i]);
+		}
+		$fsmActual.classList.add('growing');
+		$fsmActual.style.height = '100vh';
+		$fsmActual.style.width = '100vw';
+		$fsmActual.style.top = '0';
+		$fsmActual.style.left = '0';
+		$fsmActual.style.margin = '0';
+	}, 1);
+	
+	setTimeout(function(){
+		$fsmActual.classList.remove('growing');
+		$fsmActual.classList.add('full-screen')
+	}, 1000);
+};
+
+var closeFSM = function(event){
+	var $this = event.currentTarget;
+	
+	$this.style.height = size.height;
+	$this.style.width = size.width;
+	$this.style.top = position.top + 'px';
+	$this.style.left = position.left + 'px';
+	$this.style.margin = '0';
+	$this.classList.remove('full-screen');
+	$this.classList.add('shrinking');
+	
+	setTimeout(function(){
+		while($this.firstChild) $this.removeChild($this.firstChild);
+		var classList = $this.classList;
+		while (classList.length > 0) {
+			 classList.remove(classList.item(0));
+		}
+		$this.style = '';;
+	}, 1000);
+};
+
+for (var i = 0; i < $fsm.length; i++) {
+	$fsm[i].addEventListener("click", openFSM);
+}
+$fsmActual.addEventListener("click", closeFSM);
+
+
 </script>
 
 <style>
@@ -37,6 +121,129 @@ function myFunction() {
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px; 
+}
+
+
+
+
+
+
+
+
+body {
+
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	background-color: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+	
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+
+h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.fsm {
+	margin: 10vh 5vw;
+	background-color: blue;
+	height: 100px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #f5f5f5;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	transition: 1s;
+	cursor: pointer;
+	
+	.fa {
+		transition: 1s;
+		color: #f5f5f5;
+		font-size: 2.5vw;
+		
+		&:before {
+			color: #f5f5f5;
+		}
+	}
+	
+	.modal-content {
+		height: 0;
+		width: 0;
+		margin: 0;
+	}
+	
+	h1.modal-content {
+		opacity: 0;
+		transition: 1s;
+	}
+	
+	&.apple {
+		background: linear-gradient(135deg, #83458e 0%,#608dc9 100%);
+	}
+	&.pied {
+		background: linear-gradient(135deg, #6ecdc7 0%,#c7e4ec 100%);
+	}
+	&.codepen {
+		background: linear-gradient(135deg, #778899 0%,#DCDCDC 100%);
+	}
+	&.google {
+		background: linear-gradient(135deg, #4285f4 0%,#ea4335 100%);
+	}
+	
+	&.growing {
+		h1.modal-content {
+			height: auto;
+			margin: 0;
+			opacity: 0;
+			transition-delay: 0.5s;
+		}
+	}
+	
+	&.full-screen {
+		height: 100vh;
+		z-index: 100;
+		margin: 0;
+		border-radius: 0;
+		
+		.fa {
+			font-size: 10vw;
+		}
+		.modal-content {
+			height: auto;
+			width: auto;
+			margin: inital;
+		}
+		h1.modal-content {
+			transition-delay: 0.5s;
+			opacity: 1;
+		}
+	}
+	&.shrinking {
+		h1.modal-content {
+			transition-delay: 0s;
+			transition: 0.5s;
+			opacity: 0;
+			display: block;
+		}
+	}
+	
+	&-container {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		box-sizing: border-box;
+	}
 }
 
 </style>
@@ -93,9 +300,15 @@ Go to the [comments](#comments-section)
 
 #### Brighton Beach at Dusk 1
 
+<div id="fsm_container" class="fsm-container">
+<div class="fsm apple">
+<i class="fa fa-apple">
 <p align="center">
-<img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
+<img class="modal-content" src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
 </p>
+</i>
+</div>
+</div>
 
 [Back to Index](#index)
 
