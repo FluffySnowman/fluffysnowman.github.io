@@ -75,15 +75,6 @@ $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
   margin-bottom: 12px; 
 }
 
-
-
-
-#img1 { cursor:zoom-in; }
-#img1:-webkit-full-screen { cursor:zoom-out; }
-#img1:-moz-full-screen { cursor:zoom-out; }
-#img1:-ms-fullscreen { cursor:zoom-out; }
-#img1:fullscreen { cursor:zoom-out; }
-
 </style>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
