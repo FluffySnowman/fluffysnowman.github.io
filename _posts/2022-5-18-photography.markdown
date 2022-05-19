@@ -74,6 +74,7 @@ Go to the [comments](#comments-section)
             <li><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
             <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
             <li><a href="#goa-sunset-1">Goa Sunset 1</a></li>
+            <li><a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
@@ -110,6 +111,12 @@ Go to the [comments](#comments-section)
 
 <p align="center">
 <img src="/assets/photography/goabeachsunset1.jpg" alt="goabeachsunset1">
+</p>
+
+#### Goa sunrise 1
+
+<p align="center">
+<img src="/assets/photography/goabeachdawn.jpg" alt="goabeachdawn1">
 </p>
 
 [Back to Index](#index)
