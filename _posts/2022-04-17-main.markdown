@@ -7,37 +7,43 @@ categories: jekyll update
 ---
 
 <script>
-function myFunction() {
-
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
-
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('indexvals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-  }
 }
 </script>
 
 <style>
-    #myInput {
-  background-image: url('/css/searchicon.png'); 
-  background-position: 10px 12px; 
-  background-repeat: no-repeat; 
-  width: 100%; 
-  font-size: 16px; 
-  padding: 12px 20px 12px 40px; 
-  border: 1px solid #ddd; 
-  margin-bottom: 12px; 
-}
+
+  #searchbar{
+     margin-left: 0%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 100%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 100%;
+   }
+ 
+
 
 </style>
 
@@ -92,16 +98,16 @@ Go to the [comments](#comments-section)
 <ol>
     <li><a href="#networking-basics">Networking</a></li> 
         <ul id="myUL">
-            <li><a href="#networking-basics">Networking basics</a></li>
-            <li><a href="#netmasks">Netmasks</a></li>
-            <li><a href="#dhcp">DHCP</a></li>
-            <li><a href="#dns">DNS</a></li>
-            <li><a href="#change-your-ip">Change Your IP</a></li>
-            <li><a href="#change-your-mac-address">Change your MAC Address</a></li>
-            <li><a href="#change-your-dns">Change your DNS</a></li>
-            <li><a href="#arp">Arp Scanning</a></li>
+            <li class="indexvals"><a href="#networking-basics">Networking basics</a></li>
+            <li class="indexvals"><a href="#netmasks">Netmasks</a></li>
+            <li class="indexvals"><a href="#dhcp">DHCP</a></li>
+            <li class="indexvals"><a href="#dns">DNS</a></li>
+            <li class="indexvals"><a href="#change-your-ip">Change Your IP</a></li>
+            <li class="indexvals"><a href="#change-your-mac-address">Change your MAC Address</a></li>
+            <li class="indexvals"><a href="#change-your-dns">Change your DNS</a></li>
+            <li class="indexvals"><a href="#arp">Arp Scanning</a></li>
         </ul>
-    <li><a href="#operating-system-security">Security in Operating Systems</a></li>
+    <li class="indexvals"><a href="#operating-system-security">Security in Operating Systems</a></li>
         <ul id="myUL">
         </ul>
 </ol>

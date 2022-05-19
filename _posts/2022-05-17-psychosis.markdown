@@ -7,39 +7,44 @@ categories: jekyll update
 ---
 
 <script>
-function myFunction() {
 
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
-
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('indexvals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-  }
 }
-
 
 </script>
 
 <style>
-#myInput {
-  background-image: url('/css/searchicon.png'); 
-  background-position: 10px 12px; 
-  background-repeat: no-repeat; 
-  width: 100%;
-  font-size: 16px; 
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px; 
-}
+
+  #searchbar{
+     margin-left: 0%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 100%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 100%;
+   }
+ 
 
 </style>
 
@@ -60,7 +65,7 @@ Go to the [comments](#comments-section)
 
 <div>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search for topics...">
 
 </div>
 
@@ -73,9 +78,9 @@ Go to the [comments](#comments-section)
 <ol>
     <li><a href="#psychotic-illustrations">Psychotic Illustrations</a></li> 
           <ul id="myUL">
-            <li><a href="#voices-in-dark-rooms">The Voices in Dark Rooms</a></li>
-            <li><a href="#the-grey-man">The Grey Man</a></li>
-            <li><a href="#the-grey-man-at-night">The Grey Man at Night</a></li>
+            <li class="indexvals"><a href="#voices-in-dark-rooms">The Voices in Dark Rooms</a></li>
+            <li class="indexvals"><a href="#the-grey-man">The Grey Man</a></li>
+            <li class="indexvals"><a href="#the-grey-man-at-night">The Grey Man at Night</a></li>
           </ul>
     <li><a href=""></a></li>
         <ul id="myUL">

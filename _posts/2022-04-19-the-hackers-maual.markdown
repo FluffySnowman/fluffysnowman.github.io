@@ -9,34 +9,41 @@ categories: jekyll update
 <script>
 function myFunction() {
 
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
-
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('indexvals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-  }
 }
 </script>
 
 <style>
-#myInput {
-  background-image: url('/css/searchicon.png'); 
-  background-position: 10px 12px; 
-  background-repeat: no-repeat; 
-  width: 100%;
-  font-size: 16px; 
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px; 
+  #searchbar{
+     margin-left: 0%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 100%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 100%;
+   }
+ om: 12px; 
 }
 
 </style>
@@ -65,28 +72,28 @@ Go to the [comments](#comments-section)
 
 <div>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search for topics...">
 
 </div>
 
 # INDEX:
 
 <ol>
-    <li><a href="#wireless-network-auditing">Wireless Network Auditing</a></li> 
+    <li><a class="indexvals" href="#wireless-network-auditing">Wireless Network Auditing</a></li> 
         <ul id="myUL">
-            <li><a href="#installations-for-networking">Installations</a></li>
-            <li><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>
-            <li><a href="#deauthentication">Deauth Attacks</a></li>
-            <li><a href="#wpa-handshake-cracking">WPA Handshakes</a></li>
-            <li><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
-            <li><a href="#network-mapping">Mapping</a></li>
+            <li class="indexvals"><a href="#installations-for-networking">Installations</a></li>
+            <li class="indexvals"><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>
+            <li class="indexvals"><a href="#deauthentication">Deauth Attacks</a></li>
+            <li class="indexvals"><a href="#wpa-handshake-cracking">WPA Handshakes</a></li>
+            <li class="indexvals"><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
+            <li class="indexvals"><a href="#network-mapping">Mapping</a></li>
         </ul>
-    <li><a href="#social-engineering">Security in Operating Systems</a></li>
+    <li class="indexvals"><a href="#social-engineering">Security in Operating Systems</a></li>
         <ul id="myUL">
-            <li><a href="#phishing">Phishing</a></li>
-            <li><a href="#pretexting">Pretexting</a></li>
-            <li><a href="#baiting">Baiting</a></li>
-            <li><a href="#scareware">Scareware</a></li>
+            <li class="indexvals"><a href="#phishing">Phishing</a></li>
+            <li class="indexvals"><a href="#pretexting">Pretexting</a></li>
+            <li class="indexvals"><a href="#baiting">Baiting</a></li>
+            <li class="indexvals"><a href="#scareware">Scareware</a></li>
         </ul>
 </ol>
 
