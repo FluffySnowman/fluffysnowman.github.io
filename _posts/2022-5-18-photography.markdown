@@ -85,8 +85,8 @@ Go to the [comments](#comments-section)
           <ul id="myUL">
             <li class="indexvals"><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
             <li class="indexvals"><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
-            <li> class="indexvals"<a href="#goa-sunset-1">Goa Sunset 1</a></li>
-            <li> class="indexvals"<a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
+            <li class="indexvals"><a href="#goa-sunset-1">Goa Sunset 1</a></li>
+            <li class="indexvals"><a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
             <li class="indexvals"><a href="#just-some-clouds-1">Just some clouds 1</a></li>
             <li class="indexvals"><a href="#a-sunrise-in-france">A sunrise in france</a></li>
             <li class="indexvals"><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>
@@ -95,7 +95,7 @@ Go to the [comments](#comments-section)
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
                 <li class="indexvals"><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
-                <li> class="indexvals"<a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
+                <li lass="indexvals"><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
                 <li class="indexvals"><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li class="indexvals"><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
