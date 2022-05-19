@@ -10,43 +10,46 @@ categories: jekyll update
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script>
-function myFunction() {
-
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
-
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('indexvals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
     }
-  }
 }
 
-
 ////////////////////////////////////
+
+
 
 </script>
 
 <style>
-#myInput {
-  background-image: url('/css/searchicon.png'); 
-  background-position: 10px 12px; 
-  background-repeat: no-repeat; 
-  width: 100%;
-  font-size: 16px; 
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px; 
-}
-
-
+  #searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
 
 </style>
 
@@ -67,7 +70,7 @@ Go to the [comments](#comments-section)
 
 <div>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search for topics...">
 
 </div>
 
@@ -80,24 +83,24 @@ Go to the [comments](#comments-section)
 <ol>
     <li><a href="#photography">Photography</a></li> 
           <ul id="myUL">
-            <li><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
-            <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
-            <li><a href="#goa-sunset-1">Goa Sunset 1</a></li>
-            <li><a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
-            <li><a href="#just-some-clouds-1">Just some clouds 1</a></li>
-            <li><a href="#a-sunrise-in-france">A sunrise in france</a></li>
-            <li><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>
-            <li><a href="#capturing-lightning-in-frames">Capturing Lightning in Frames</a></li>
+            <li class="indexvals"><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
+            <li class="indexvals"><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
+            <li> class="indexvals"<a href="#goa-sunset-1">Goa Sunset 1</a></li>
+            <li> class="indexvals"<a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
+            <li class="indexvals"><a href="#just-some-clouds-1">Just some clouds 1</a></li>
+            <li class="indexvals"><a href="#a-sunrise-in-france">A sunrise in france</a></li>
+            <li class="indexvals"><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>
+            <li class="indexvals"><a href="#capturing-lightning-in-frames">Capturing Lightning in Frames</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
-                <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
-                <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
-                <li><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
-                <li><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
-                <li><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
-                <li><a href="#the-m00n">The M00n</a></li>
-                <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
+                <li class="indexvals"><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
+                <li> class="indexvals"<a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
+                <li class="indexvals"><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
+                <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
+                <li class="indexvals"><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
+                <li class="indexvals"><a href="#the-m00n">The M00n</a></li>
+                <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
           </ul>
 </ol>
 
