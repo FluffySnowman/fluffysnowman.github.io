@@ -134,6 +134,7 @@ Go to the [comments](#comments-section)
 <img src="/assets/photography/lampsmoking.png" alt="lampsmoking">
 </p>
 
+[Back to Index](#index)
 
 #### Glitched Hacker in Hoodie v1
 
