@@ -15,7 +15,7 @@ function myFunction() {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
-  ul = document.getElementByClass("myUL");
+  ul = document.getElementById("myUL");
   li = ul.getElementsByTagName('li');
 
   for (i = 0; i < li.length; i++) {
@@ -79,7 +79,7 @@ Go to the [comments](#comments-section)
 
 <ol>
     <li><a href="#photography">Photography</a></li> 
-          <ul class="myUL">
+          <ul id="myUL">
             <li><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
             <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
             <li><a href="#goa-sunset-1">Goa Sunset 1</a></li>
@@ -90,7 +90,7 @@ Go to the [comments](#comments-section)
             <li><a href="#capturing-lightning-in-frames">Capturing Lightning in Frames</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
-            <ul class="myUL">
+            <ul id="myUL">
                 <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
                 <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
                 <li><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
