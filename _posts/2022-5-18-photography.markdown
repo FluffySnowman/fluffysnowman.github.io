@@ -93,8 +93,12 @@ Go to the [comments](#comments-section)
             <ul id="myUL">
                 <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
                 <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
+                <li><a href="#an-edited-sunset-(purple)">An edited sunset (purple)</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
+                <li><a href="#the-m00n">The M00n</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
+                <li><a href="#the-m00n">The M00n</a></li>
+
           </ul>
 </ol>
 
@@ -190,10 +194,26 @@ Go to the [comments](#comments-section)
 
 [Back to Index](#index)
 
+# An Edited sunset (purple)
+
+<p align="center">
+<img src="/assets/photography/sunset_edited_1.JPG" alt="lampsmoking" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
 #### Glitched Hacker in Hoodie v1
 
 <p align="center">
 <img src="/assets/photography/glitchalf.gif" alt="glitch1" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+# The m00n
+
+<p align="center">
+<img src="/assets/photography/blackm00n.JPG" alt="The M00N" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
