@@ -95,7 +95,7 @@ Go to the [comments](#comments-section)
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
                 <li class="indexvals"><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
-                <li lass="indexvals"><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
+                <li class="indexvals"><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
                 <li class="indexvals"><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li class="indexvals"><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
