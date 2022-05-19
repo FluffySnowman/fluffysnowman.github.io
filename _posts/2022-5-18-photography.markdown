@@ -73,10 +73,12 @@ Go to the [comments](#comments-section)
           <ul id="myUL">
             <li><a href="#brighton-beach-at-dusk-1">Brighton Beach at dusk 1</a></li>
             <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
+            <li><a href="#goa-sunset-1">Goa Sunset 1</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
                 <li><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
+                <li><a href="#the-white-lamp-post-with-me-smoking">The white lamp with my smoking</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
           </ul>
@@ -102,7 +104,13 @@ Go to the [comments](#comments-section)
 <img src="/assets/photography/brightonbeachdawn1.jpg" alt="brightonbeachatdawn">
 </p>
 
+[Back to Index](#index)
 
+#### Goa sunset 1
+
+<p align="center">
+<img src="/assets/photography/goabeachsunset1.jpg" alt="goabeachsunset1">
+</p>
 
 [Back to Index](#index)
 
@@ -119,6 +127,13 @@ Go to the [comments](#comments-section)
 </p>
 
 [Back to Index](#index)
+
+#### The White Lamp Post with me Smoking
+
+<p align="center">
+<img src="/assets/photography/lampsmoking.png" alt="lampsmoking">
+</p>
+
 
 #### Glitched Hacker in Hoodie v1
 
