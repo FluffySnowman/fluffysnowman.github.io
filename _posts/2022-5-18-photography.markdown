@@ -84,6 +84,10 @@ Go to the [comments](#comments-section)
             <li><a href="#brighton-beach-at-dawn-1">Brighton Beach at Dawn 1</a></li>
             <li><a href="#goa-sunset-1">Goa Sunset 1</a></li>
             <li><a href="#goa-sunrise-1">Goa Sunrise 1</a></li>
+            <li><a href="#just-some-clouds-1">Just some clouds 1</a></li>
+            <li><a href="#a-sunrise-in-france">A sunrise in france</a></li>
+            <li><a href="#panorama-of-goa-beach-1">Panorama of Goa beach 1</a></li>">
+            <li><a href="#capturing-lightning-in-frames">Capturing Lightning in Frames</a></li>
           </ul>
     <li><a href="#edited-photography">Edited Photography</a></li>
             <ul id="myUL">
@@ -108,10 +112,26 @@ Go to the [comments](#comments-section)
 
 [Back to Index](#index)
 
+# Panorama of Goa beach 1
+
+<p align="center">
+<img src="/assets/photography/goapano.jpg" alt="goapano1" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
 #### Brighton beach at Dawn 1
 
 <p align="center">
 <img src="/assets/photography/brightonbeachdawn1.jpg" alt="brightonbeachatdawn" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+# Just some clouds 1
+
+<p align="center">
+<img src="/assets/photography/clouds1.jpg" alt="clouds1" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
@@ -121,6 +141,24 @@ Go to the [comments](#comments-section)
 <p align="center">
 <img src="/assets/photography/goabeachsunset1.jpg" alt="goabeachsunset1" onclick="window.open(this.src)">
 </p>
+
+[Back to Index](#index)
+
+# A sunrise in france
+
+<p align="center">
+<img src="/assets/photography/france1.jpg" alt="sunrisefrance" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+# Capturing lightning in Frames
+
+<p align="center">
+<img src="/assets/photography/lightning1.png" alt="lightning" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
 
 #### Goa sunrise 1
 
