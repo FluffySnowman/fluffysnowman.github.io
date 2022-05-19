@@ -33,7 +33,7 @@ function search() {
 
 <style>
   #searchbar{
-     margin-left: 15%;
+     margin-left: 0%;
      padding:15px;
      border-radius: 10px;
    }
