@@ -42,8 +42,6 @@ function search() {
    input[type=text]:focus {
      width: 100%;
    }
- 
-
 
 </style>
 
@@ -55,30 +53,6 @@ function search() {
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 </head>
-<!--
-
-```{css, echo=FALSE}
-pre code {
-    background: #4e4848;
-    padding: 20px;
-    color: rgb(163, 35, 30);
-    overflow-x: auto;
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-    font-size: 12px;
-    border: none;
-}
-.testing0x1 {
-    background: #4e4848;
-    padding: 20px;
-    color: rgb(163, 35, 30);
-    overflow-x: auto;
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-    font-size: 12px;
-    border: none;
-}
-```
-
--->
 
 Welcome to the whole documentation of everything I know about computers and systems.
 
@@ -87,7 +61,7 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 <div>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics">
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search for topics...">
 
 </div>
 
