@@ -65,6 +65,7 @@ Welcome to the whole documentation of everything I know about computers and syst
 
 </div>
 
+<br>
 <hr>
 <br>
 
