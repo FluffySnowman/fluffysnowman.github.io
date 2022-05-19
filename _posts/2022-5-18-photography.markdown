@@ -216,22 +216,9 @@ Go to the [comments](#comments-section)
 
 #### Brighton Beach at Dusk 1
 
-
-<img class="myImages" id="myImg" src="http://onebigphoto.com/uploads/2012/10/midnight-sun-in-lofoten-norway.jpg" alt="Midnight sun in Lofoten, Norway" width="300" height="200">
-<img class="myImages" id="myImg" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1490029386/fisherman-cabin-hamnoy-lofoten-islands-norway-NORWAY0320.jpg?itok=cpPuUjh1" alt="Fishermen's cabins in Lofoten, Norway"
-width="300" height="200">
-<img class="myImages" id="myImg" src="http://fjordtours.blob.core.windows.net/fjordtours-umbraco/1199/gerirangerfjord-per-ottar-walderhaug-fjordnorway.jpg" alt="Gerirangerfjord, Norway" width="300" height="200">
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-<!--
 <p align="center">
-<img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight">
+<img src="/assets/photography/brightonbeachnight.jpg" alt="brightonbeachatnight" onclick="window.open(this.src)">
 </p>
-
--->
 
 [Back to Index](#index)
 
