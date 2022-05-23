@@ -99,6 +99,7 @@ Go to the [comments](#comments-section)
             <ul id="myUL">
                 <li class="indexvals"><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
                 <li class="indexvals"><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
+                <li class="indexvals"><a href="#pixel-sort-1">Pixel  Sort 1</a></li>
                 <li class="indexvals"><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
                 <li class="indexvals"><a href="#me-glitched-with-lines">Me Glitched with Lines</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
@@ -205,6 +206,14 @@ Go to the [comments](#comments-section)
 
 <p align="center">
 <img src="/assets/photography/lampsmoking.png" alt="lampsmoking" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+#### Pixel Sort 1
+
+<p align="center">
+<img src="/assets/photography/pixel_sort_0x1.png" alt="pixelsort1" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
