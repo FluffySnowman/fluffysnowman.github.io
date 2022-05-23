@@ -66,7 +66,7 @@ extra_javascript:
     /scripts/copy_code.js
 -->
 
-Welcome to the page of my blog where I post the best of my photography! If you wish to contribute or download the full sized images, send me an <a href="mailto:thefluffysnowmanyt@gmail.com">Email</a> or send a message to me on <a href="https://twitter.com/FluffySnowmanYT">Twitter</a> or on Discord: `FluffySnowman#1337`.
+Welcome to the page of my blog where I post the best of my photography! If you wish to contribute or download the full sized images, send me an <a href="mailto:thefluffysnowmanyt@gmail.com">Email</a> or send a message to me on <a target="_blank" href="https://twitter.com/FluffySnowmanYT">Twitter</a> or on Discord: `FluffySnowman#1337`.
 
 Go to the [comments](#comments-section)
 
@@ -100,6 +100,7 @@ Go to the [comments](#comments-section)
                 <li class="indexvals"><a href="#the-red-lamp-post">The Red Lamp Post</a></li>
                 <li class="indexvals"><a href="#the-white-lamp-post-with-me-smoking">The white lamp post with me smoking</a></li>
                 <li class="indexvals"><a href="#an-edited-sunset-purple">An edited sunset (purple)</a></li>
+                <li class="indexvals"><a href="#me-glitched-with-lines">Me Glitched with Lines</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li class="indexvals"><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
                 <li class="indexvals"><a href="#the-m00n">The M00n</a></li>
@@ -210,7 +211,16 @@ Go to the [comments](#comments-section)
 # An Edited sunset purple
 
 <p align="center">
-<img src="/assets/photography/sunset_edited_1.JPG" alt="lampsmoking" onclick="window.open(this.src)">
+<img src="/assets/photography/sunset_edited_1.JPG" alt="purplesunset" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+
+# Me Glitched with Lines
+
+<p align="center">
+<img src="/assets/photography/me_glitch_0x3.jpg" alt="me_glitch_0x3" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
