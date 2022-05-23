@@ -66,7 +66,7 @@ extra_javascript:
     /scripts/copy_code.js
 -->
 
-Welcome to the page of my blog where I post the best of my photography! If you wish to contribute or download the full sized images, send me an <a href="mailto:thefluffysnowmanyt@gmail.com">Email</a>.
+Welcome to the page of my blog where I post the best of my photography! If you wish to contribute or download the full sized images, send me an <a href="mailto:thefluffysnowmanyt@gmail.com">Email</a> or send a message to me on <a href="https://twitter.com/FluffySnowmanYT">Twitter</a> or on Discord: `FluffySnowman#1337`.
 
 Go to the [comments](#comments-section)
 
