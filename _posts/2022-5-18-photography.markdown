@@ -103,7 +103,8 @@ Go to the [comments](#comments-section)
                 <li class="indexvals"><a href="#me-glitched-with-lines">Me Glitched with Lines</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v1">Glitched Hacker in Hoodie v1</a></li>
                 <li class="indexvals"><a href="#black-and-white-mountains-1">Black And White Mountains 1</a></li>
-                <li class="indexvals"><a href="#the-m00n">The M00n</a></li>
+                <li class="indexvals"><a href="#glitched-glass">Glitched Glass</a></li>
+                <li class="indexvals"><a href="#the-m00n">Glitched Glass</a></li>
                 <li class="indexvals"><a href="#glitched-hacker-in-hoodie-v2">Glitched Hacker in Hoodie v2</a></li>
           </ul>
 </ol>
@@ -237,6 +238,14 @@ Go to the [comments](#comments-section)
 
 <p align="center">
 <img src="/assets/photography/bwmountaains1.jpg" alt="glitch1" onclick="window.open(this.src)">
+</p>
+
+[Back to Index](#index)
+
+# Glitched Glass
+
+<p align="center">
+<img src="/assets/photography/glitched_glass.jpg" alt="glitchedglass" onclick="window.open(this.src)">
 </p>
 
 [Back to Index](#index)
