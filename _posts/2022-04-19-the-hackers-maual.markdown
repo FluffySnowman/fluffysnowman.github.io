@@ -333,6 +333,9 @@ First I will explain the process behind Cloned wifi attacks (Evil twin) because 
 
 Pretexting is just another word for scamming in this context. A person uses manipulation and clever language based on lies and pretends to <b>need</b> sensitive information. This is usally done by gaining trust of someone (the victim) or impersonating a bank/tax/police/co-worker which has a "right-to-know" authority. This will lead them to give up information without hesitation and can be used to confirm the victim's identity through which they can gather sensitive or important personal data. 
 
+Pretexting doesn't really have any programs to do so. However, you can create a script, in a language such as python, to mimic the behaviour of a human. But the main purpose of pretexting is to seem like a geniuine person who <i>needs</i> information from you- such as a government official etc.
+
+There is no specific guide to this. If you wish to practice pretexting then feel free to send me a message on my discord or twitter or email (links in [about page](./about).
 
 
 
