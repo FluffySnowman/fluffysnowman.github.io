@@ -3,6 +3,8 @@ layout: default
 permalink: /
 ---
 
+{% include /_includes/header.html %}
+
 # Welcome
 
 # <a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
