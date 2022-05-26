@@ -7,7 +7,7 @@ permalink: /
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
-    <h1>{{ owner_first_name[0] | downcase }}@home:~$</h1>
+    <h1>fluffy@void:~$</h1>
     </a>
     <div class="header-links">
       {% include links.html %}
