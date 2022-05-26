@@ -337,6 +337,8 @@ Pretexting doesn't really have any programs to do so. However, you can create a 
 
 There is no specific guide to this. If you wish to practice pretexting then feel free to send me a message on my discord or twitter or email (links in [about page](https://fluffysnowman.github.io/about/)).
 
+One drawback of pretexting is that people who have been using the internet for a while, know that its a scam as they may have experienced similar situations. So manipulation after gaining their trust as a friend is the best method of practising pretexting
+
 
 
 [Back to Index](#index)
