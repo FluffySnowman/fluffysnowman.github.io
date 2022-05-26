@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-<header>
+<header style="display: contents">
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
