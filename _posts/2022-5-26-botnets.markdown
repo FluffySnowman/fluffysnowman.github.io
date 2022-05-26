@@ -83,6 +83,13 @@ extra_javascript:
     /scripts/copy_code.js
 -->
 
+<hr>
+<br>
+DISCLAIMER: ALL OF THESE TUTORIALS AND TIPS ARE ONLY FOR EDUCATION PURPOSES. I HOLD NO RESPONSIBILITY FOR ANYONE'S ACTIONS.
+
+<hr>
+<br>
+
 Go to the [comments](#comments-section)
 
 <div>
@@ -110,6 +117,8 @@ Go to the [comments](#comments-section)
 # Basics
 
 ### What is a `BOTNET` ?
+
+A botnet is basically a way to control a large amount of computers with a single command. Some botnets can be connected via a form of network. They may all be directed to connect to a single server (client server architecture) or all of the nodes could act as a server and a client at the same time (peer to peer).
 
 
 
