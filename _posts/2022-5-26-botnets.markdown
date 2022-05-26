@@ -134,3 +134,4 @@ Go to the [comments](#comments-section)
 [Back to Index](#index)
 
 
+{% include footer.html %}

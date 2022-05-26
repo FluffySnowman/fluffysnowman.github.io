@@ -322,3 +322,4 @@ Go to the [comments](#comments-section)
 
 
 
+{% include footer.html %}

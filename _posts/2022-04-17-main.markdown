@@ -362,3 +362,4 @@ Example:
 
 [Back to Index](#index)
 
+{% include footer.html %}

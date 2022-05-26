@@ -395,4 +395,4 @@ Scareware is basically spamming or bombarding the victim's computer/email/websit
 
 [Back to Index](#index)
 
-
+{% include footer.html %}

@@ -231,3 +231,4 @@ It should look like this:
 
 [Back to Index](#index)
 
+{% include footer.html %}
