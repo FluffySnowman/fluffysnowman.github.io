@@ -4,11 +4,11 @@ layout: default
 
 # Welcome
 
-# [Botnet Basics](/_posts/2022-5-26-botnets.markdown)
+# <a href=/_posts/2022-5-26-botnets.markdown" style="text-decoration:none">Botnet Basics</a>
 
 <br>
 
-# [Photography by The Fluffy Snowman](/_posts/2022-5-18-photography.markdown)
+# <a href=/_posts/2022-5-18-photography.markdown" style="text-decoration:none">[Photography by The Fluffy Snowman]</a>
 
 <br>
 
@@ -24,6 +24,6 @@ layout: default
 
 <br>
 
-# [main](/_posts/2022-04-17-main.markdown)
+# [testing](/_posts/2021-08-22-welcome-to-jekyll.markdown)
 
 <br>
