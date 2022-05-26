@@ -107,7 +107,7 @@ Go to the [comments](#comments-section)
 <ol>
     <li class="indexvals"><a href="#basics">Basics</a></li> 
         <ul id="myUL">
-            <li class="indexvals"><a href="#what-is-a-botnet-?">What is a BOTNET</a></li>
+            <li class="indexvals"><a href="#what-is-a-botnet-?">What is a Botnet ?</a></li>
         </ul>
 </ol>
 <br>
