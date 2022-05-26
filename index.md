@@ -8,7 +8,7 @@ layout: default
 
 <br>
 
-# <a href="./_posts/2022-5-18-photography.markdown" style="text-decoration:none">Photography by The Fluffy Snowman</a>
+# <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a>
 
 <br>
 
