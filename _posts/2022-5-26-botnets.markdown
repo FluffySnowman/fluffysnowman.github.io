@@ -82,22 +82,9 @@ Go to the [comments](#comments-section)
 <ol>
     <li class="indexvals"><a href="#basics">Basics</a></li> 
         <ul id="myUL">
-            <li class="indexvals"><a href="#installations-for-networking">Installations</a></li>
-            <li class="indexvals"><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>
-            <li class="indexvals"><a href="#deauthentication">Deauth Attacks</a></li>
-            <li class="indexvals"><a href="#wpa-handshake-cracking">WPA Handshakes</a></li>
-            <li class="indexvals"><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
-            <li class="indexvals"><a href="#network-mapping">Mapping</a></li>
-        </ul>
-    <li class="indexvals"><a href="#social-engineering">Security in Operating Systems</a></li>
-        <ul id="myUL">
-            <li class="indexvals"><a href="#phishing">Phishing</a></li>
-            <li class="indexvals"><a href="#pretexting">Pretexting</a></li>
-            <li class="indexvals"><a href="#baiting">Baiting</a></li>
-            <li class="indexvals"><a href="#scareware">Scareware</a></li>
+            <li class="indexvals"><a href="#what-is-a-botnet">What is a BOTNET</a></li>
         </ul>
 </ol>
-
 <br>
 <hr>
 <br>
