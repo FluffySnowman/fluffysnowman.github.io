@@ -1,11 +1,11 @@
 <header>
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
     <h1>A Blog of Things</h1>
     </a>
     <div class="header-links">
       {% include links.html %}
+      <a href=""/about/">About</a>"
     </div>
   </div>
 </header>
