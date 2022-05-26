@@ -16,7 +16,7 @@ layout: default
 
 <br>
 
-# <a href="/jekyll/update/2022/04/19/the-hackers-manual.html" style="text-decoration:none">The Hacker's Manual</a>
+# <a href="/jekyll/update/2022/04/19/the-hackers-maual.html" style="text-decoration:none">The Hacker's Manual</a>
 
 <br>
 
