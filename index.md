@@ -5,7 +5,7 @@ permalink: /
 
 <header style="display: contents">
   <div>
-    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    <a style="text-decoration:none" href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
     <h1>fluffy@void:~$</h1>
     </a>
