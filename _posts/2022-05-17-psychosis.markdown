@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Psychosis"
 date: 2030-05-17 +0530
 comments: true

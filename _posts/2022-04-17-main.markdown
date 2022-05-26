@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "The Guide to Everything"
 date:   2022-04-17 +0530
 comments: true

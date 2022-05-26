@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "testing"
 date: 2021-08-22 +0530
 comments: true

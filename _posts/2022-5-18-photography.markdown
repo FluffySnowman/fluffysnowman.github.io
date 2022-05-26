@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Photography by The Fluffy Snowman"
 date: 2022-05-18 +0530
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "The Dark Web"
 date: 2022-05-06 +0530
 comments: true
