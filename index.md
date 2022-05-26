@@ -4,19 +4,19 @@ layout: default
 
 # Welcome
 
-# <a href=/_posts/2022-5-26-botnets.markdown" style="text-decoration:none">Botnet Basics</a>
+# <a href="/_posts/2022-5-26-botnets.markdown" style="text-decoration:none">Botnet Basics</a>
 
 <br>
 
-# <a href=/_posts/2022-5-18-photography.markdown" style="text-decoration:none">[Photography by The Fluffy Snowman]</a>
+# <a href="/_posts/2022-5-18-photography.markdown" style="text-decoration:none">Photography by The Fluffy Snowman</a>
 
 <br>
 
-# [The Dark Web](/_posts/2022-05-06-the-dark-web.markdown)
+# <a href="/_posts/2022-05-06-the-dark-web.markdown" style="text-decoration:none">The Dark Web</a>
 
 <br>
 
-# [The Hacker's Manual](/_posts/2022-04-19-the-hackers-maual.markdown)
+# <a href="/_posts/2022-04-19-the-hackers-maual.markdown" style="text-decoration:none">The Hacker's Manual</a>
 
 <br>
 
