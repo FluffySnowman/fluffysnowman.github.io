@@ -29,7 +29,7 @@ github_username:  FluffySnowman
 
 # Build settings
 theme: minima
-remote_theme: pages-themes/midnight
+remote_theme: minima
 plugins:
   - jekyll-feed
 
