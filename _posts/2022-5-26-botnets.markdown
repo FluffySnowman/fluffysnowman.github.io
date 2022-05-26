@@ -107,7 +107,7 @@ Go to the [comments](#comments-section)
 <ol>
     <li class="indexvals"><a href="#basics">Basics</a></li> 
         <ul id="myUL">
-            <li class="indexvals"><a href="#what-is-a-botnet">What is a BOTNET</a></li>
+            <li class="indexvals"><a href="#what-is-a-botnet-?">What is a BOTNET</a></li>
         </ul>
 </ol>
 <br>
@@ -116,7 +116,7 @@ Go to the [comments](#comments-section)
 
 # Basics
 
-### What is a `BOTNET` ?
+### What is a Botnet ?
 
 A botnet is basically a way to control a large amount of computers with a single command. Some botnets can be connected via a form of network. They may all be directed to connect to a single server (client server architecture) or all of the nodes could act as a server and a client at the same time (peer to peer).
 
