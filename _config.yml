@@ -28,7 +28,7 @@ twitter_username: FluffySnowmanYT
 github_username:  FluffySnowman
 
 # Build settings
-theme: https://github.com/pages-themes/midnight
+theme: jekyll/midnight
 plugins:
   - jekyll-feed
 
