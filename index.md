@@ -20,7 +20,7 @@ permalink: /
 
 <br>
 
-# Welcome
+#### Welcome to the site where there is content from computer tutorials to photography. Make sure to check out the Indexes on each page for easy navigation :)
 
 ## <a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
 
