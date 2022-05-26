@@ -4,6 +4,7 @@ permalink: /
 ---
 
 <header style="display: contents">
+ <font size=1> 
   <div>
     <a style="text-decoration:none" href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
@@ -13,6 +14,8 @@ permalink: /
       {% include links.html %}
     </div>
   </div>
+  </font> 
+  <hr>
 </header>
 
 # Welcome
