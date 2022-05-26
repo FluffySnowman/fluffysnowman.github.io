@@ -3,7 +3,17 @@ layout: default
 permalink: /
 ---
 
-{% include header.html %}
+<header>
+  <div>
+    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>fluffy@void:~$</h1>
+    </a>
+    <div class="header-links">
+      {% include links.html %}
+    </div>
+  </div>
+</header>
 
 # Welcome
 
