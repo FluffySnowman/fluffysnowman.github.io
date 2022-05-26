@@ -4,7 +4,7 @@ layout: default
 
 # Welcome
 
-# <a href="./_posts/2022-5-26-botnets.markdown" style="text-decoration:none">Botnet Basics</a>
+# <a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
 
 <br>
 
@@ -12,15 +12,15 @@ layout: default
 
 <br>
 
-# <a href="./_posts/2022-05-06-the-dark-web.markdown" style="text-decoration:none">The Dark Web</a>
+# <a href="/jekyll/update/2022/05/06/the-dark-web.html" style="text-decoration:none">The Dark Web</a>
 
 <br>
 
-# <a href="./_posts/2022-04-19-the-hackers-maual.markdown" style="text-decoration:none">The Hacker's Manual</a>
+# <a href="/jekyll/update/2022/04/19/the-hackers-manual.html" style="text-decoration:none">The Hacker's Manual</a>
 
 <br>
 
-# <a href="./_posts/2022-04-17-main.markdown" style="text-decoration:none">The Guide to Everything</a>
+# <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
 
 
 <br>
