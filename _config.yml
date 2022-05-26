@@ -1,3 +1,15 @@
+title: A Blog of Things
+description: Just some interesting stuff
+author: 
+  name: The Fluffy Snowman
+  email: thefluffysnowmanyt@gmail.com
+
+baseurl: /
+
+
+
 theme: jekyll-theme-hacker
 
 include: [_posts]
+
+owner: The Fluffy Snowman
