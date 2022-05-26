@@ -1,0 +1,131 @@
+---
+layout: post
+title: "Basics of Botnets"
+date: 2022-05-26 +0530
+comments: true
+categories: jekyll update
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('indexvals');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+
+////////////////////////////////////
+
+
+
+</script>
+
+<style>
+  #searchbar{
+     margin-left: 0%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 100%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 100%;
+   }
+ 
+
+</style>
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<!--
+extra_javascript:
+    /scripts/copy_code.js
+-->
+
+Go to the [comments](#comments-section)
+
+<div>
+
+<input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search for topics...">
+
+</div>
+
+<br>
+<hr>
+<br>
+
+# INDEX
+
+<ol>
+    <li class="indexvals"><a href="#basics">Basics</a></li> 
+        <ul id="myUL">
+            <li class="indexvals"><a href="#installations-for-networking">Installations</a></li>
+            <li class="indexvals"><a href="#wireless-networking-with-aircrack-ng">Aircrack-ng</a></li>
+            <li class="indexvals"><a href="#deauthentication">Deauth Attacks</a></li>
+            <li class="indexvals"><a href="#wpa-handshake-cracking">WPA Handshakes</a></li>
+            <li class="indexvals"><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
+            <li class="indexvals"><a href="#network-mapping">Mapping</a></li>
+        </ul>
+    <li class="indexvals"><a href="#social-engineering">Security in Operating Systems</a></li>
+        <ul id="myUL">
+            <li class="indexvals"><a href="#phishing">Phishing</a></li>
+            <li class="indexvals"><a href="#pretexting">Pretexting</a></li>
+            <li class="indexvals"><a href="#baiting">Baiting</a></li>
+            <li class="indexvals"><a href="#scareware">Scareware</a></li>
+        </ul>
+</ol>
+
+<br>
+<hr>
+<br>
+
+# Basics
+
+### What is a `BOTNET` ?
+
+
+
+[Back to Index](#index)
+
+# COMMENTS SECTION
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://fluffysnowman.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+[Back to Index](#index)
+
+
