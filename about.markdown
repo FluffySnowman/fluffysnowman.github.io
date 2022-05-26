@@ -11,6 +11,24 @@ permalink: /about/
 <link rel="manifest" href="/site.webmanifest">
 </head>
 
+<header style="display: contents">
+ <font size=1> 
+  <div>
+    <a style="text-decoration:none" href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>fluffy@void:~$</h1>
+    </a>
+    <div class="header-links">
+      {% include links.html %}
+    </div>
+  </div>
+  </font> 
+  <hr>
+</header>
+
+<br>
+
+
 # What is the website ?
 
 This is a website where one can learn more about computers, networks, operating systems and more!

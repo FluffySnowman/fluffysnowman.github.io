@@ -6,6 +6,24 @@ comments: true
 categories: jekyll update
 ---
 
+<header style="display: contents">
+ <font size=1> 
+  <div>
+    <a style="text-decoration:none" href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>fluffy@void:~$</h1>
+    </a>
+    <div class="header-links">
+      {% include links.html %}
+    </div>
+  </div>
+  </font> 
+  <hr>
+</header>
+
+<br>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script>
