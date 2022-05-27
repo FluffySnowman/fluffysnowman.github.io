@@ -40,4 +40,19 @@ For any queries or corrections for the website, please contact me at [thefluffys
 Name's Fluffy. I've been using a computer since I was 5 years old. Made my first computer malware at the age of 8 and since then I've been programming, hacking and more. Feel free to contact me on [twitter](https://twitter.com/FluffySnowmanYT) or [email](mailto:thefluffysnowmanyt@gmail.com) or Discord: `FluffySnowman#1337` or Telegram: `@FluffySnowman` if you just want to chat about technology or anything really.
 I am experienced in Cyber Security, Linux, Network Administration, random programming, and much more!
 
-{$ include footer.html $}
+<br>
+
+<footer>
+  
+
+  <br>
+  <hr>
+  <br>
+
+Contact Me
+
+<br><br>
+
+<a href="https://twitter.com/FluffySnowmanYT" target="_blank">Twitter</a><p>      </p><a href="mailto:thefluffysnowmanyt@gmail.com" target="_blank">Email</a><p>    </p><p>Telegram: @FluffySnowman</p>
+
+</footer>
