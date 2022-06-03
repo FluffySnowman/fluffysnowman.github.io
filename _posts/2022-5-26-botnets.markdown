@@ -118,7 +118,7 @@ Go to the [comments](#comments-section)
 
 ### What is a Botnet ?
 
-A botnet is basically a way to control a large amount of computers with a single command. Some botnets can be connected via a form of network. They may all be directed to connect to a single server (client server architecture) or all of the nodes could act as a server and a client at the same time (peer to peer).
+A botnet is basically a way to control a large amount of computers with a single command. Some botnets can be connected via a form of network. They may all be directed to connect to a single server (client server architecture) or all of the nodes could act as a server and a client at the same time (peer to peer). Usually the purpose of a botnet is to use a large amount of computing power by connecting computers through the internet instead of having one really fast computer. This means that a botnet with a large amount of devices could produce millions of teraflops of speed. This can be used to crack passwords using `bruteforcing` or can even be used to make money (`bitcoin mining`).
 
 
 
