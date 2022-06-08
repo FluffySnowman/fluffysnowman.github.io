@@ -109,12 +109,16 @@ Go to the [comments](#comments-section)
             <li class="indexvals"><a href="#wep-handshake-cracking">WEP Handshakes</a></li>
             <li class="indexvals"><a href="#network-mapping">Mapping</a></li>
         </ul>
-    <li class="indexvals"><a href="#social-engineering">Security in Operating Systems</a></li>
+    <li class="indexvals"><a href="#social-engineering">Soicial Engineering</a></li>
         <ul id="myUL">
             <li class="indexvals"><a href="#phishing">Phishing</a></li>
             <li class="indexvals"><a href="#pretexting">Pretexting</a></li>
             <li class="indexvals"><a href="#baiting">Baiting</a></li>
             <li class="indexvals"><a href="#scareware">Scareware</a></li>
+        </ul>
+     <li class="indexvals"><a href="#osint"></a>Open Source Intelligence (OSINT)</li>
+        <ul id="myUL">
+            <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
         </ul>
 </ol>
 
@@ -376,6 +380,19 @@ Scareware is basically spamming or bombarding the victim's computer/email/websit
 
 
 [Back to Index](#index)
+
+
+<br>
+<hr>
+<br>
+
+# OSINT
+
+### What Is OSINT
+
+
+[Back to Index](#index)
+
 
 # COMMENTS SECTION
 
