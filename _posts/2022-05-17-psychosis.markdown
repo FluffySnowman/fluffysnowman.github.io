@@ -52,7 +52,7 @@ function search() {
    }
  
    input[type=text] {
-      width: 100%;
+      width: 90%;
       -webkit-transition: width 0.15s ease-in-out;
       transition: width 0.15s ease-in-out;
    }
@@ -60,7 +60,7 @@ function search() {
    /* When the input field gets focus,
         change its width to 100% */
    input[type=text]:focus {
-     width: 100%;
+     width: 90%;
    }
  
 
