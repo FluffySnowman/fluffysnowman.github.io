@@ -116,7 +116,7 @@ Go to the [comments](#comments-section)
             <li class="indexvals"><a href="#baiting">Baiting</a></li>
             <li class="indexvals"><a href="#scareware">Scareware</a></li>
         </ul>
-     <li class="indexvals"><a href="#osint"></a>Open Source Intelligence (OSINT)</li>
+     <li class="indexvals"><a href="#osint">Open Source Intelligence (OSINT)</a></li>
         <ul id="myUL">
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
         </ul>
