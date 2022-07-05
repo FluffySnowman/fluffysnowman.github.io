@@ -390,7 +390,13 @@ Scareware is basically spamming or bombarding the victim's computer/email/websit
 
 ### What Is OSINT
 
-`OSINT` is a term used to describe the gathering of information through free and public tools/databases; full form- Open Source Intelligence. "Doing some OSINT work" is basically another way to say you're "doxing" someone. `Doxing` being "dox" (documents) and `"ing" (doing) which basically means that you're looking for data and information about a specific entitiy using public databases and open source (free and customisable) tools. 
+`OSINT` is a term used to describe the gathering of information through free and public tools/databases; full form- Open Source Intelligence. "Doing some OSINT work" is basically another way to say you're "doxing" someone. `Doxing` being "dox" (documents) and `"ing" (doing) which basically means that you're looking for data and information about a specific entitiy using public databases and open source (free and customisable) tools.
+
+From my understanding, there are many complications on the legality of `OSINT` and `Doxing` as some people may try to gain access to confidential databases for the information they are looking for which isn't legal however if you use only public databases and tools which annyone can access then it is technically "legal". Another complication which arises is the age of the person or entity you are trying to find information on. If the person is underage (not an adult) according to the "adult age" in the country or region they are in and you "leak" or distribute the information you have found then it is `not` legal. However if you keep the information to yourself then it may be legal as you are just "looking" for information for personal use. If the person or entity you are trying to gather intelligence on is an adult (usually 18+) then you can "leak" the information or do anything "ethical" with it without any legal complications.
+
+Now that we've got the legality covered, what is `OSINT` used for in the ethical and legal sense?
+
+`OSINT` can be used for the good of people. From my experience, in the past I have used `OSINT` to help people find their lost family members or to find the location of a missing person. If you wish to try to this out, use yourself as a target. Try to find information on yourself using the world wide web. I do this quite often as I prefer to keep  my information private so if I find anything I do not wish to keep public on the world wide web then I simply remove it from the websites- such as names of gmail accounts, reviews made on websites of restaurants or any sort of interaction that could have your real life exposed to the internet. I also use `OSINT` to find information on people I know and use it to learn more about them (of course with their permission otherwise it wouldn't be ethical to conduct an investigation).
 
 [Back to Index](#index)
 
