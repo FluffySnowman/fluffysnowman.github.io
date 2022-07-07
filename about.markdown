@@ -71,6 +71,6 @@ Contact Me
 
 <br><br>
 
-<a href="https://twitter.com/FluffySnowmanYT" target="_blank">Twitter</a><p>      </p><a href="mailto:thefluffysnowmanyt@gmail.com" target="_blank">Email</a><p>    </p><p>Telegram: @FluffySnowman</p>
+<a href="https://twitter.com/FluffySnowmanYT" target="_blank">Twitter</a><p>      </p><a href="mailto:thefluffysnowmanyt@gmail.com" target="_blank">Email</a><p>    </p><p>Telegram: <a href="https://t.me/FluffySnowman" target="_blank">@FluffySnowman</a></p>
 
 </footer>
