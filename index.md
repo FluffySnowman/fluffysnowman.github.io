@@ -42,11 +42,6 @@ permalink: /
 
 ## <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
 
-
-<br>
-
-## <a href="./_posts/2021-08-22-welcome-to-jekyll.markdown" style="text-decoration:none">Testing</a>
-
 <br>
 
 {% include footer.html %}
