@@ -51,20 +51,17 @@ I am experienced in Cyber Security, Linux, Network Administration, random progra
 <footer>
   
 
-  <br>
-  <hr>
-  <br>
 
   <br>
-  <hr>
+
+<br>
   <br>
 
-  <br>
-  <hr>
+<br>
   <br>
 
-  <br>
-  <hr>
+
+<br>
   <br>
 
 Contact Me
