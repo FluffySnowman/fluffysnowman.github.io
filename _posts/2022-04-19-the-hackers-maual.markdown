@@ -119,6 +119,7 @@ Go to the [comments](#comments-section)
      <li class="indexvals"><a href="#osint">Open Source Intelligence (OSINT)</a></li>
         <ul id="myUL">
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
+            <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
         </ul>
 </ol>
 
@@ -400,6 +401,15 @@ Now that we've got the legality covered, what is `OSINT` used for in the ethical
 
 [Back to Index](#index)
 
+### How to conduct an OSINT investigation
+
+
+
+
+
+
+
+[Back to Index](#index)
 
 # COMMENTS SECTION
 
