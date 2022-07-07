@@ -389,7 +389,7 @@ Scareware is basically spamming or bombarding the victim's computer/email/websit
 
 # OSINT
 
-### What Is OSINT
+### What Is `OSINT`
 
 `OSINT` is a term used to describe the gathering of information through free and public tools/databases; full form- Open Source Intelligence. "Doing some OSINT work" is basically another way to say you're "doxing" someone. `Doxing` being "dox" (documents) and `"ing" (doing) which basically means that you're looking for data and information about a specific entitiy using public databases and open source (free and customisable) tools.
 
@@ -401,7 +401,7 @@ Now that we've got the legality covered, what is `OSINT` used for in the ethical
 
 [Back to Index](#index)
 
-### How to conduct an OSINT investigation
+### How to conduct an `OSINT` investigation
 
 
 
