@@ -66,7 +66,7 @@ I am experienced in Cyber Security, Linux, Network Administration, random progra
   <br>
   <br>
   <br>
-
+<hr>
 Contact Me
 
 <br><br>
