@@ -50,7 +50,8 @@ For any queries or corrections for the website, please contact me at [thefluffys
 
 Telegram QR code:
 
-![telegramqrcodefluffysnowman](/assets/pics/telegram_fluffysnowman.png){: style="float: left"}&nbsp;Name's Fluffy. I've been using a computer since I was 5 years old. Made my first computer malware at the age of 8 and since then I've been programming, hacking and more. Feel free to contact me on [Twitter](https://twitter.com/FluffySnowmanYT) or [Email](mailto:thefluffysnowmanyt@gmail.com) or Discord: `FluffySnowman#1337` or Telegram: [`@FluffySnowman`](https://t.me/FluffySnowman){:target="\_blank"} if you just want to chat about technology or anything really.
+![telegramqrcodefluffysnowman](/assets/pics/telegram_fluffysnowman.png){: style="float: left"}
+Name's Fluffy. I've been using a computer since I was 5 years old. Made my first computer malware at the age of 8 and since then I've been programming, hacking and more. Feel free to contact me on [Twitter](https://twitter.com/FluffySnowmanYT) or [Email](mailto:thefluffysnowmanyt@gmail.com) or Discord: `FluffySnowman#1337` or Telegram: [`@FluffySnowman`](https://t.me/FluffySnowman){:target="\_blank"} if you just want to chat about technology or anything really.
 
 <br>
 
