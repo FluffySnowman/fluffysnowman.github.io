@@ -10,6 +10,7 @@ img {
   display: inline-block;
   margin: 25px 10px;
   margin-top: 0px;
+  margin-left: 0px;
 }
 
 </style>
