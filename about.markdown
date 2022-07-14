@@ -43,7 +43,7 @@ img {
 
 # What is the website ?
 
-This is a website where one can learn more about computers, networks, operating systems and more!
+This is a website where one can learn more about computers, networks, operating systems and just random blogging!
 
 For any queries or corrections for the website, please contact me at [thefluffysnowmanyt@gmail.com](mailto:thefluffysnowmanyt@gmail.com) or on [Twitter](https://twitter.com/FluffySnowmanYT){:target="\_blank"}.
 
