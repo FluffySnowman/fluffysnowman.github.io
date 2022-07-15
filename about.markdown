@@ -20,6 +20,20 @@ img {
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
+ <base target="_blank">
+  <meta charset="UTF-8" />
+  <title>Fluffy Snowman</title>
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+  <!-- remember, jQuery is completely optional -->
+  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type="text/javascript" src="js/jquery.particleground.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+</head>
+
 </head>
 
 <header style="display: contents">
@@ -40,6 +54,21 @@ img {
 <br>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
+<div id="particles">
+  <div id="intro">
+      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Fluffy Snowman&nbsp<a href="deedy.pdf" style="color: white;"><img src="FIpygR2UYAI3tai.jpg" height="35" width="35"></a></h2>
+        <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
+    <a href="https://twitter.com/FLuffySnowmanYT" style="color: white;"><i class="fab fa-twitter" style="font-size: 2em;"></i></a>
+    &nbsp
+    <a href="https://instagram.com/thefluffysnowman" style="color: white;"><i class="fab fa-instagram" style="font-size: 2em;"></i></a>
+    &nbsp
+    <a href="https://github.com/FluffySnowman" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
+    &nbsp
+    <a href="https://discord.com" style="color: white;"><i class="fab fa-discord" style="font-size: 2em;"></i></a>
+  </div>
+</div>
 
 # What is the website ?
 
