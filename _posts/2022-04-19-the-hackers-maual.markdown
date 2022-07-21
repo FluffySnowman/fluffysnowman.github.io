@@ -403,6 +403,7 @@ Now that we've got the legality covered, what is `OSINT` used for in the ethical
 
 ### How to conduct an `OSINT` investigation
 
+The easiest way to conduct an OSINT investigation is to use the [osint framework](https://osintframework.com). This website is basically a list of some open source tools in one place one can use the conduct an OSINT investigation. Some of these tools are paid and some are free to use. However, on this blog page I will teach you guys how to conduct an OSINT investigation manually and explain the process behind it.
 
 
 
