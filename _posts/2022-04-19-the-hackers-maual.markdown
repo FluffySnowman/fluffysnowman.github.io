@@ -412,7 +412,7 @@ The act of gaining access to a private database through unauthorized ways is ill
 
 [Back to Index](#index)
 
-#### OSINT - Google Dorking
+#### `OSINT` - Google Dorking
 
 So... Let's start!
 
