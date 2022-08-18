@@ -120,7 +120,7 @@ Go to the [comments](#comments-section)
         <ul id="myUL">
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
             <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
-            <li class="indexvals"><a href="#-OSINT->-Google-Dorking">How to conduct an OSINT investigation</a></li>
+            <li class="indexvals"><a href="#OSINT->-Google-Dorking">Google Dorking</a></li>
         </ul>
 </ol>
 
