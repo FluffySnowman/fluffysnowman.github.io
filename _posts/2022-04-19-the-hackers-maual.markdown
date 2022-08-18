@@ -120,6 +120,7 @@ Go to the [comments](#comments-section)
         <ul id="myUL">
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
             <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
+            <li class="indexvals"><a href="#-OSINT->-Google-Dorking">How to conduct an OSINT investigation</a></li>
         </ul>
 </ol>
 
@@ -404,6 +405,11 @@ Now that we've got the legality covered, what is `OSINT` used for in the ethical
 ### How to conduct an `OSINT` investigation
 
 The easiest way to conduct an OSINT investigation is to use the [osint framework](https://osintframework.com). This website is basically a list of some open source tools in one place one can use the conduct an OSINT investigation. Some of these tools are paid and some are free to use. However, on this blog page I will teach you guys how to conduct an OSINT investigation manually and explain the process behind it.
+
+`OSINT` coming from "open source" means that you have to use open-source tools. Which basically means you don't need to pay for the tools used. You can use any open-source tools you want to conduct an OSINT investigation.
+One very popular way of conducting an `OSINT` investigation is by using "google". I'm sure most of you have used google before, and being the most indexed search engine, it has most of the information you need. The process of using google for this purpose is known as "google dorking" or "google hacking". The following methods (shown below) are used for using google dorking as your osint tool.
+
+#### OSINT > Google Dorking
 
 
 
