@@ -408,11 +408,25 @@ The easiest way to conduct an OSINT investigation is to use the [osint framework
 
 `OSINT` coming from "open source" means that you have to use open-source tools. Which basically means you don't need to pay for the tools used. You can use any open-source tools you want to conduct an OSINT investigation.
 One very popular way of conducting an `OSINT` investigation is by using "google". I'm sure most of you have used google before, and being the most indexed search engine, it has most of the information you need. The process of using google for this purpose is known as "google dorking" or "google hacking". The following methods (shown below) are used for using google dorking as your osint tool.
+The act of gaining access to a private database through unauthorized ways is illegal and not considered osint as it is not available to the public and can hence lead to problems.
+
+[Back to Index](#index)
 
 #### OSINT - Google Dorking
 
+So... Let's start!
 
+The first thing you need to know about are keywords as I call them. They are basically pieces of text which can filter out search results from google. For example, if I wanted to find out something about google with has "google" in the title I would put this in the google search bar-
 
+```bash
+intitle:"google"
+```
+
+The results should look a little something like this:
+
+<p align="center">
+<img src="/assets/pics/intitlegoogle.png" alt="intitlegoogle">
+</p>
 
 
 
