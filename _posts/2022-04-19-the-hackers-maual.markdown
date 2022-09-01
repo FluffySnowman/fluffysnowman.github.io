@@ -439,7 +439,7 @@ intitle:"twitter privacy policy" filetype:pdf
 ```
 
 <p align="center">
-<img src="/aassets/pics/intitlegoogle_with_filetype_0x1.png" alt="intitlegoogle_with_filetype_0x1.png">
+<img src="/assets/pics/intitlegoogle_with_filetype_0x1.png" alt="intitlegoogle_with_filetype_0x1.png">
 </p>
 
 As you can see, there are only 7 results hence showing that all of google's indexed data has been filtered out for your specific ccriteria.
