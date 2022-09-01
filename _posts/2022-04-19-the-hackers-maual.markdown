@@ -446,6 +446,22 @@ As you can see, there are only 7 results hence showing that all of google's inde
 
 [Back to Index](#index)
 
+Here are a list of some of the most used google keywords/operators that can be used for OSINT investigations with their uses:
+
+```bash
+related:"url" #used for finding web pages that are similar the the url specified
+
+intitle:"text" #finds pages with the title specified
+allintitle:"text" #finds pages with only the title of the text specified
+
+allinurl:"text" #finds pages that include a specific keyword in a part of the indexed urls
+
+```
+
+
+
+[Back to Index](#index)
+
 # COMMENTS SECTION
 
 {% if page.comments %}
