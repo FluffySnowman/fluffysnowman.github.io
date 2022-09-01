@@ -428,7 +428,21 @@ The results should look a little something like this:
 <img src="/assets/pics/intitlegoogle.png" alt="intitlegoogle">
 </p>
 
+You can also find certain file types with these operators. 
 
+`NOTE: You can use as many keywords/operators as you want to filter down your results even further.`
+
+For this exmaple I will be finding the twitter privacy policy file as a pdf:
+
+```bash
+intitle:"twitter privacy policy" filetype:pdf
+```
+
+<p align="center">
+<img src="/aassets/pics/intitlegoogle_with_filetype_0x1.png" alt="intitlegoogle_with_filetype_0x1.png">
+</p>
+
+As you can see, there are only 7 results hence showing that all of google's indexed data has been filtered out for your specific ccriteria.
 
 [Back to Index](#index)
 
