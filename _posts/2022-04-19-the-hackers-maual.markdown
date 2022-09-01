@@ -120,7 +120,7 @@ Go to the [comments](#comments-section)
         <ul id="myUL">
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
             <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
-            <li class="indexvals"><a href="#osint---google-dorking">Google Dorking</a></li>
+            <li class="indexvals"><a href="#google-dorking-osint">Google Dorking</a></li>
         </ul>
 </ol>
 
@@ -412,7 +412,7 @@ The act of gaining access to a private database through unauthorized ways is ill
 
 [Back to Index](#index)
 
-#### `OSINT` - Google Dorking
+#### Google Dorking `OSINT`
 
 So... Let's start!
 
