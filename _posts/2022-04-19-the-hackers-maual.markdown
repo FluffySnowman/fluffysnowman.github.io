@@ -121,6 +121,7 @@ Go to the [comments](#comments-section)
             <li class="indexvals"><a href="#what-is-osint">What is OSINT ?</a></li>
             <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
             <li class="indexvals"><a href="#google-dorking-osint">Google Dorking</a></li>
+            <li class="indexvals"><a href="#list-of-dorking-operators">List of Dorking Operators</a></li>
         </ul>
 </ol>
 
@@ -445,6 +446,8 @@ intitle:"twitter privacy policy" filetype:pdf
 As you can see, there are only 7 results hence showing that all of google's indexed data has been filtered out for your specific criteria.
 
 [Back to Index](#index)
+
+#### List of Dorking Operators
 
 Here are a list of some of the most used google keywords/operators that can be used for OSINT investigations with their uses:
 
