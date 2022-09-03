@@ -459,7 +459,7 @@ allintitle:"text" #finds pages with only the title of the text specified.
 
 allinurl:"text" #finds pages that include a specific keyword in a part of the indexed urls.
 
-filetype:".pdf" #finds files that have the specified extension. This can be used with other operators to find files of a website with extensions- such as legal documents or documentations etc.
+filetype:"pdf" #finds files that have the specified extension. This can be used with other operators to find files of a website with extensions- such as legal documents or documentations etc.
 
 ```
 
