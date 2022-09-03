@@ -449,12 +449,14 @@ As you can see, there are only 7 results hence showing that all of google's inde
 Here are a list of some of the most used google keywords/operators that can be used for OSINT investigations with their uses:
 
 ```bash
-related:"url" #used for finding web pages that are similar the the url specified
+related:"url" #used for finding web pages that are similar the the url specified.
 
-intitle:"text" #finds pages with the title specified
-allintitle:"text" #finds pages with only the title of the text specified
+intitle:"text" #finds pages with the title specified.
+allintitle:"text" #finds pages with only the title of the text specified.
 
-allinurl:"text" #finds pages that include a specific keyword in a part of the indexed urls
+allinurl:"text" #finds pages that include a specific keyword in a part of the indexed urls.
+
+filetype:".pdf" #finds files that have the specified extension. This can be used with other operators to find files of a website with extensions- such as legal documents or documentations etc.
 
 ```
 
