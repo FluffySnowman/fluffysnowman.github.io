@@ -53,15 +53,19 @@ permalink: /
   </div>
   </font> 
   <hr>
+
+  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+  
 </header>
 
 <body>
 
 <br>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFluffySnowman%2Ffluffysnowman.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### Welcome to the site where there is content from computer tutorials to photography. Make sure to check out the Indexes on each page for easy navigation :)
+
+<br> 
 <div class="writer">
             <div class="writer-text">
 
@@ -85,5 +89,7 @@ permalink: /
 ## <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
 
 <br>
+
+</body>
 
 {% include footer.html %}
