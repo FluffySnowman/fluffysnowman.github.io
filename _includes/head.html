@@ -3,8 +3,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="generator" content="Jekyll">
 
-  <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <style>
+    .writer {
+    font-family: Courier, monospace;
+    display: inline-block;
+    }
+    .writer-text {
+        display: inline-block;
+        overflow: hidden;
+        letter-spacing: 2px;
+        animation: typing 5s steps(30, end), blink .75s step-end infinite;
+        white-space: nowrap;
+        font-size: 30px;
+        font-weight: 700;
+        border-right: 4px solid orange;
+        box-sizing: border-box;
+    }
 
+    @keyframes typing {
+        from { 
+            width: 0% 
+        }
+        to { 
+            width: 100% 
+        }
+    }
+
+    @keyframes blink {
+        from, to { 
+            border-color: transparent 
+        }
+        50% { 
+            border-color: orange; 
+        }
+    }
+</style>
+<div class="writer">
+  <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+</div>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
   
   <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
