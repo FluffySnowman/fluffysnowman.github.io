@@ -12,7 +12,7 @@ permalink: /
             display: inline-block;
             overflow: hidden;
             letter-spacing: 2px;
-            animation: typing 5s steps(30, end), blink .75s step-end infinite;
+            animation: typing 2s steps(30, end), blink .75s step-end infinite;
             white-space: nowrap;
             font-size: 30px;
             font-weight: 700;
@@ -62,8 +62,6 @@ permalink: /
 
 <body>
 
-<br>
-
 <br> 
 <div class="writer">
             <div class="writer-text">
@@ -73,20 +71,37 @@ permalink: /
   </div>
 <br>
 
-## <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a>
 
+<div class="writer">
+            <div class="writer-text">
+
+## <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a>
+  </div>
+  </div>
 <br>
+
+<div class="writer">
+            <div class="writer-text">
 
 ## <a href="/jekyll/update/2022/05/06/the-dark-web.html" style="text-decoration:none">The Dark Web</a>
-
+  </div>
+  </div>
 <br>
+
+<div class="writer">
+            <div class="writer-text">
 
 ## <a href="/jekyll/update/2022/04/19/the-hackers-maual.html" style="text-decoration:none">The Hacker's Manual</a>
-
+  </div>
+  </div>
 <br>
 
-## <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
+<div class="writer">
+            <div class="writer-text">
 
+## <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
+  </div>
+  </div>
 <br>
 
 </body>
