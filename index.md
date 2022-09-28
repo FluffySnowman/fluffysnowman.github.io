@@ -66,7 +66,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-<a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
+<p>> <a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a></p> 
   </div>
   </div>
 <br>
@@ -75,7 +75,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-## <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a>
+<p>> <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a></p>
   </div>
   </div>
 <br>
@@ -83,7 +83,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-## <a href="/jekyll/update/2022/05/06/the-dark-web.html" style="text-decoration:none">The Dark Web</a>
+<p>> <a href="/jekyll/update/2022/05/06/the-dark-web.html" style="text-decoration:none">The Dark Web</a></p>
   </div>
   </div>
 <br>
@@ -91,7 +91,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-## <a href="/jekyll/update/2022/04/19/the-hackers-maual.html" style="text-decoration:none">The Hacker's Manual</a>
+<p>> <a href="/jekyll/update/2022/04/19/the-hackers-maual.html" style="text-decoration:none">The Hacker's Manual</a></p>
   </div>
   </div>
 <br>
@@ -99,7 +99,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-## <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a>
+<p>> <a href="/jekyll/update/2022/04/17/main.html" style="text-decoration:none">The Guide to Everything</a></p>
   </div>
   </div>
 <br>
