@@ -66,7 +66,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-## <a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
+<a href="/jekyll/update/2022/05/26/botnets.html" style="text-decoration:none">Botnet Basics</a>
   </div>
   </div>
 <br>
