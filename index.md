@@ -34,7 +34,7 @@ permalink: /
                 border-color: transparent 
             }
             50% { 
-                border-color: orange; 
+                border-color: green 
             }
         }
     </style>
