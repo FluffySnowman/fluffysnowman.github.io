@@ -75,7 +75,7 @@ permalink: /
 <div class="writer">
             <div class="writer-text">
 
-<p>> <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography by The Fluffy Snowman</a></p>
+<p>> <a href="/jekyll/update/2022/05/18/photography.html" style="text-decoration:none">Photography</a></p>
   </div>
   </div>
 <br>
