@@ -5,7 +5,7 @@ permalink: /
 
   <style>
         .writer {
-        font-family: Courier, monospace;
+        font-family: monospace;
         display: inline-block;
         }
         .writer-text {
