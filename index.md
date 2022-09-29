@@ -62,7 +62,6 @@ permalink: /
 
 <body>
 
-<br> 
 <div class="writer">
             <div class="writer-text">
 
