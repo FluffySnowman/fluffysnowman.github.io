@@ -461,6 +461,7 @@ allinurl:"text" #finds pages that include a specific keyword in a part of the in
 
 filetype:"pdf" #finds files that have the specified extension. This can be used with other operators to find files of a website with extensions- such as legal documents or documentations etc.
 
+#NOTE: Adding more keywords/operators in the future. Website is still in development.
 ```
 
 
