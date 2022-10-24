@@ -464,6 +464,7 @@ filetype:"pdf" #finds files that have the specified extension. This can be used 
 #NOTE: Adding more keywords/operators in the future. Website is still in development.
 ```
 
+All these operators can be used in tandem to filter out your results even further and find the information you are looking for.
 
 
 [Back to Index](#index)
