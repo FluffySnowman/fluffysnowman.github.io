@@ -469,6 +469,21 @@ All these operators can be used in tandem to filter out your results even furthe
 
 [Back to Index](#index)
 
+One tool which is very useful for OSINT work is the "OSINT Framework". Its a website which has a list of open source tools which can be used for OSINT investigations. It also has a list of websites which can be used for OSINT investigations. The website is [here](https://osintframework.com).
+
+The way this works is that you click on a node of the options and it will show you a list of tools and websites which can be used for that specific node. For example, if I wanted to find information on a person I would click on the "username" node and it would show me a list of tools and websites which can be used for finding information on people using their usernames. Here's an example:
+
+
+<p align="center">
+<img src="/assets/pics/osintframework_0x1.png" alt="osintframework_0x1">
+</p>
+
+
+
+[Back to Index](#index)
+
+
+
 # COMMENTS SECTION
 
 {% if page.comments %}
