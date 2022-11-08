@@ -122,6 +122,7 @@ Go to the [comments](#comments-section)
             <li class="indexvals"><a href="#how-to-conduct-an-osint-investigation">How to conduct an OSINT investigation</a></li>
             <li class="indexvals"><a href="#google-dorking-osint">Google Dorking</a></li>
             <li class="indexvals"><a href="#list-of-dorking-operators">List of Dorking Operators</a></li>
+            <li class="indexvals"><a href="#the-osint-framework">The OSINT Framework</a></li>
         </ul>
 </ol>
 
@@ -468,6 +469,8 @@ All these operators can be used in tandem to filter out your results even furthe
 
 
 [Back to Index](#index)
+
+#### The OSINT Framework
 
 One tool which is very useful for OSINT work is the "OSINT Framework". Its a website which has a list of open source tools which can be used for OSINT investigations. It also has a list of websites which can be used for OSINT investigations. The website is [here](https://osintframework.com).
 
