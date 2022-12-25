@@ -45,14 +45,14 @@ img {
 
 This is a website where one can learn more about computers, networks, operating systems and just random blogging!
 
-For any queries or corrections for the website, please contact me at [thefluffysnowmanyt@gmail.com](mailto:thefluffysnowmanyt@gmail.com) or on [Twitter](https://twitter.com/FluffySnowmanYT){:target="\_blank"}.
+For any queries or corrections for the website, please contact me at [thefluffysnowmanyt@gmail.com](mailto:thefluffysnowmanyt@gmail.com).
 
 # About me
 
 Telegram QR code:
 
 ![telegramqrcodefluffysnowman](/assets/pics/telegram_fluffysnowman.png){: style="float: left"}
-Name's Fluffy. I've been using a computer since I was 5 years old. Made my first computer malware at the age of 8 and since then I've been programming, hacking and more. Feel free to contact me on [Twitter](https://twitter.com/FluffySnowmanYT) or [Email](mailto:thefluffysnowmanyt@gmail.com) or Discord: `FluffySnowman#1337` or Telegram: [`@FluffySnowman`](https://t.me/FluffySnowman){:target="\_blank"} if you just want to chat about technology or anything really.
+Name's Fluffy. I've been using a computer since I was 5 years old. Made my first computer malware at the age of 8 and since then I've been programming, hacking and more. Feel free to contact me on [Email](mailto:thefluffysnowmanyt@gmail.com) or Discord: `FluffySnowman#1337` or Telegram: [`@FluffySnowman`](https://t.me/FluffySnowman){:target="\_blank"} if you just want to chat about technology or anything really.
 
 <br>
 
@@ -83,8 +83,6 @@ Contact Me
 
 <br><br>
 
-<a href="https://twitter.com/FluffySnowmanYT" target="_blank">Twitter</a><p>      </p><a href="mailto:thefluffysnowmanyt@gmail.com" target="_blank">Email</a><p>    </p><p>Telegram: <a href="https://t.me/FluffySnowman" target="_blank">@FluffySnowman</a></p>
-
-<a rel="me" href="https://mastodon.social/@FluffySnowman">Mastodon</a>
+<p><a href="mailto:thefluffysnowmanyt@gmail.com" target="_blank">Email</a></p>    <p>Telegram: <a href="https://t.me/FluffySnowman" target="_blank">@FluffySnowman</a></p>
 
 </footer>
